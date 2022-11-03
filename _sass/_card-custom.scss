@@ -1,0 +1,80 @@
+.card-nxt {
+    margin-bottom: 1.5rem;
+    box-shadow: $card-box-shadow;
+
+    >* {
+        flex-shrink: 0;
+    }
+}
+
+.card-nxt-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: $card-header-height;
+
+    >*:first-child {
+        flex: 1;
+    }
+
+}
+
+.card-nxt-header--title {
+    margin-bottom: 0;
+}
+
+.card-nxt-header--subtitle {
+    margin-bottom: 0;
+    color: $text-muted;
+    font-size: $font-size-sm;
+    margin-top: .2rem;
+}
+
+.card-nxt {
+    .table-nxt {
+        margin-bottom: 0;
+    }
+
+    .table-nxt thead th {
+        border-top-width: 0;
+    }
+
+    .table-nxt thead th,
+    .table-nxt tbody td {
+
+        &:first-child {
+            padding-left: $card-spacer-x !important;
+        }
+
+        &:last-child {
+            padding-right: $card-spacer-x !important;
+        }
+    }
+}
+
+
+.card-nxt>.table-nxt:first-child,
+.card-nxt>.table-responsive:first-child>.table-nxt {
+
+    >thead,
+    >tbody,
+    >tfoot {
+
+        &:first-child {
+
+            >tr:first-child {
+
+                >th,
+                >td {
+                    &:first-child {
+                        border-top-left-radius: $card-border-radius;
+                    }
+
+                    &:last-child {
+                        border-top-right-radius: $card-border-radius;
+                    }
+                }
+            }
+        }
+    }
+}

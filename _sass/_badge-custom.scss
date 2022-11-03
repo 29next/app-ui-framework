@@ -1,0 +1,29 @@
+.badge-nxt-primary {
+    background-color: #d6e0ff;
+    --#{$prefix}badge-color: #2b57da;
+}
+
+.badge-nxt-secondary {
+    --#{$prefix}badge-color: #666666;
+    background-color: #e2e6ed;
+}
+
+.badge-nxt-success {
+    --#{$prefix}badge-color: #007b47;
+    background-color: #ccf7e5;
+}
+
+.badge-nxt-info {
+    --#{$prefix}badge-color: #286da5;
+    background-color: #d7eff6;
+}
+
+.badge-nxt-warning {
+    --#{$prefix}badge-color: #946c00;
+    background-color: #fdf3d9;
+}
+
+.badge-nxt-danger {
+    --#{$prefix}badge-color: #c40e33;
+    background-color: #feecf0;
+}

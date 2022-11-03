@@ -1,0 +1,14 @@
+{% if page.group %}
+<nav aria-label="breadcrumb">
+	<ol class="breadcrumb">
+		{% for item in site.data.navigation %}
+			{% if item.group == page.group %}
+				<li class="breadcrumb-item">
+					{{ item.title }}
+				</li><!-- end c-breadcrumbs__item -->
+				
+			{% endif %}
+		{% endfor %}
+	</ol><!-- end c-breadcrumbs -->
+</nav>
+{% endif %}

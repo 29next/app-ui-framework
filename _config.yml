@@ -1,0 +1,20 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "29next App Design System" # the name of your site, e.g. ACME Corp.
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+sass:
+    sass_dir: _sass
+    style: compressed
+
+
+# Setup pattern collection
+collections:
+  patterns:
+    output: true
