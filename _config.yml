@@ -5,6 +5,7 @@ title: "29next App Design System" # the name of your site, e.g. ACME Corp.
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 highlighter: rouge
 
 kramdown:

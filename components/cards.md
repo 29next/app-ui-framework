@@ -1,7 +1,6 @@
 ---
 layout: page-content
 group: components
-permalink: /components/cards.html
 order: 3
 title: "Cards"
 description: Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options. Please read the official <a href="https://getbootstrap.com/docs/5.2/components/card/" target="_blank">Bootstrap documentation</a> for a full list of options.

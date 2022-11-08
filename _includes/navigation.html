@@ -3,17 +3,17 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarCollapse" aria-controls="sidebarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="./index.html">
+            <a class="navbar-brand" href="/">
                 <img src="{{ site.baseurl }}/assets/img/29next-logo-icon.svg" alt="" class="mx-auto">
             </a>
             <div class="collapse navbar-collapse" id="sidebarCollapse">
                 <ul class="navbar-nav">
                     {% for item in site.data.navigation %}
-                    {% if item.group %}
-                    {% include navigation-item.html group=item.group title=item.title %}
-                    {% else %}
-                    {% include navigation-item.html url=item.url title=item.title %}
-                    {% endif %}
+                        {% if item.group %}
+                            {% include navigation-item.html group=item.group title=item.title %}
+                        {% else %}
+                            {% include navigation-item.html url=item.url title=item.title %}
+                        {% endif %}
                     {% endfor %}
                 </ul>
             </div>

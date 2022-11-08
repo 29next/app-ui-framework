@@ -1,7 +1,6 @@
 <li class="nav-item">
-    <a 
-    class="nav-link {% if page.url contains item.url %}active{% endif %}" 
-    {% if include.group %} 
+    <a class="nav-link {% if page.url contains item.url %}active{% endif %}"
+    {% if include.group %}
     role="button" data-bs-toggle="collapse" data-bs-target="#{{ item.group }}" aria-expanded="{% if page.url contains item.group %}true{% else %}false{% endif %}" aria-controls="{{ item.group }}"
     {% else %}
     href="{{ include.url | prepend: site.baseurl}}"
@@ -9,40 +8,18 @@
         {{ include.title }}
     </a>
     {% if include.group %}
-    <div class="{% if page.url contains item.group %}collapse show{% else %}collapse{% endif %}" 
-    id="{{ item.group }}">
+    <div class="{% if page.url contains item.group %}collapse show{% else %}collapse{% endif %}" id="{{ item.group }}">
         <ul class="nav flex-column">
             {% assign sorted_groups = site.pages | where: "group", include.group | group_by_exp: "item", "item.order | default: 999999" | sort: "name" %}
             {% for group in sorted_groups %}
-            {% assign sorted_pages = group.items | sort: 'title' %}
-            {% for subpage in sorted_pages %}
-            {% if subpage.group == include.group %}
-            <li><a class="nav-link {% if subpage.url == page.url %}active{% endif %}" href="{{ subpage.url | prepend: site.baseurl }}" {% if subpage.url == page.url %}aria-current="true"{% endif %}>{{ subpage.title }}</a></li>
-            {% endif %}
-            {% endfor %}
+                {% assign sorted_pages = group.items | sort: 'title' %}
+                {% for subpage in sorted_pages %}
+                    {% if subpage.group == include.group %}
+                    <li><a class="nav-link {% if subpage.url == page.url %}active{% endif %}" href="{{ subpage.url | prepend: site.baseurl }}" {% if subpage.url == page.url %}aria-current="true"{% endif %}>{{ subpage.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
             {% endfor %}
         </ul>
     </div>
     {% endif %}
 </li>
-<!-- <li class="nav-item {% if include.group %}dropdown{% endif %}">
-    <a class="nav-link {% if include.group %}dropdown-toggle{% endif %} {% if page.url contains item.group %}show{% endif %}" href="{% if include.group %}#{% else %}{{ include.url | prepend: site.baseurl}}{% endif %}" {% if include.group %} role="button" data-bs-toggle="dropdown" aria-expanded="false"{% endif %}>
-        {{ include.title }}
-    </a>
-    {% if include.group %}
-    <ul class="dropdown-menu {% if page.url contains item.group %}collapse show{% else %}collapse{% endif %}">
-        {% assign sorted_groups = site.pages | where: "group", include.group | group_by_exp: "item", "item.order | default: 999999" | sort: "name" %}
-        {% for group in sorted_groups %}
-        {% assign sorted_pages = group.items | sort: 'title' %}
-        {% for my_subpage in sorted_pages %}
-        {% if my_subpage.group == include.group %}
-        <li><a class="dropdown-item {% if my_subpage.url == page.url %}active{% endif %}" href="{{ my_subpage.url | prepend: site.baseurl }}" {% if my_subpage.url == page.url %}aria-current="true"{% endif %}>{{ my_subpage.title }}</a></li>
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
-    </ul>
-    {% endif %}
-</li> -->
-
-
-

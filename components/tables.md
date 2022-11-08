@@ -1,7 +1,6 @@
 ---
 layout: page-content
 group: components
-permalink: /components/tables.html
 order: 4
 title: "Tables"
 description: Please read the official <a href="https://getbootstrap.com/docs/5.2/components/breadcrumb/" target="_blank">Bootstrap documentation</a> for a full list of options.

@@ -1,7 +1,6 @@
 ---
 layout: page-content
 group: components
-permalink: /components/buttons.html
 order: 2
 title: "Buttons"
 description: Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more. Please read the  <a href="https://getbootstrap.com/docs/5.2/components/buttons/" target="_blank">Bootstrap documentation</a> for a full list of options.
@@ -33,7 +32,7 @@ description: Use Bootstrap’s custom button styles for actions in forms, dialog
 <div class="card">
 <div class="card-body">
 <button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-nxt-white">White</button>
+<button type="button" class="btn btn-white">White</button>
 <button type="button" class="btn btn-secondary">Secondary</button>
 <button type="button" class="btn btn-success">Success</button>
 <button type="button" class="btn btn-danger">Danger</button>
@@ -49,7 +48,7 @@ description: Use Bootstrap’s custom button styles for actions in forms, dialog
 ```html
 
 <button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-nxt-white">White</button>
+<button type="button" class="btn btn-white">White</button>
 <button type="button" class="btn btn-secondary">Secondary</button>
 <button type="button" class="btn btn-success">Success</button>
 <button type="button" class="btn btn-danger">Danger</button>

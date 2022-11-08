@@ -1,10 +1,9 @@
 ---
 layout: page-content
 group: components
-permalink: /components/forms.html
 order: 5
 title: "Forms"
-description: 29next supports all of Bootstrap's default form styling. Please read the <a href="https://getbootstrap.com/docs/5.2/forms/overview/" target="_blank">official documentation</a> for a full list of options from Bootstrap's core library. 
+description: 29next supports all of Bootstrap's default form styling. Please read the <a href="https://getbootstrap.com/docs/5.2/forms/overview/" target="_blank">official documentation</a> for a full list of options from Bootstrap's core library.
 ---
 
 <div class=" mb-5">

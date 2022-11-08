@@ -1,10 +1,9 @@
 ---
 layout: page-content
 group: components
-permalink: /components/navigation.html
 order: 6
 title: "Navigation"
-description: 29next's in app navigation follows the boostrap tabbed navigation. Please read the <a href="https://getbootstrap.com/docs/5.2/components/navs-tabs/" target="_blank">official documentation</a> for a full list of options from Bootstrap's core library. 
+description: 29next's in app navigation follows the boostrap tabbed navigation. Please read the <a href="https://getbootstrap.com/docs/5.2/components/navs-tabs/" target="_blank">official documentation</a> for a full list of options from Bootstrap's core library.
 
 ---
 
@@ -24,7 +23,7 @@ description: 29next's in app navigation follows the boostrap tabbed navigation. 
           <li class="nav-item">
             <a class="nav-link disabled">Disabled</a>
           </li>
-      </ul>  
+      </ul>
     </div>
   </div>
 </div>
