@@ -7,8 +7,6 @@ description: Apps are structured to work seamlessly with the 29next dashboard an
 # Layout
 {:.mb-5}
 
-![Screen from the 29 Next admin](/assets/img/app-anatomy.png){:.img-fluid.mb-5}
-
 ### Components:
 {:.mb-3}
 1. The 29next Admin
@@ -23,6 +21,6 @@ Apps consist of a few core elements and the app body, which is the center of you
 
 The app body is where your app's main experience lives.
 
-The 29next App Framework is built on and extends Bootstrap components.  
+The 29next App Framework is built on and extends Bootstrap components.
 
 Be sure to follow the component guidelines when you implementing elements for the app body.
