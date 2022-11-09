@@ -10,7 +10,7 @@ description: 29next's in app navigation follows the boostrap tabbed navigation. 
 <div class=" mb-5">
   <div class="card">
     <div class="card-body">
-      <ul class="nav nav-tabs nav-nxt-tabs">
+      <ul class="nav nav-tabs ">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Active</a>
           </li>
@@ -32,7 +32,7 @@ description: 29next's in app navigation follows the boostrap tabbed navigation. 
 <div class="card-body" markdown="1">
 
 ```html
-  <ul class="nav nav-tabs nav-nxt-tabs">
+  <ul class="nav nav-tabs">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="#">Active</a>
       </li>
@@ -55,7 +55,7 @@ description: 29next's in app navigation follows the boostrap tabbed navigation. 
 <div class=" mb-5">
   <div class="card">
     <div class="card-body">
-      <ul class="nav nav-tabs nav-nxt-tabs">
+      <ul class="nav nav-tabs ">
           <li class="nav-item" role="presentation">
             <button class="nav-link active" id="link1-tab" data-bs-toggle="tab" data-bs-target="#link1-tab-pane" type="button" role="tab" aria-controls="link1-tab-pane" aria-selected="true">Link 1</button>
           </li>
@@ -83,7 +83,7 @@ description: 29next's in app navigation follows the boostrap tabbed navigation. 
 <div class="card-body" markdown="1">
 
 ```html
-  <ul class="nav nav-tabs nav-nxt-tabs">
+  <ul class="nav nav-tabs ">
     <li class="nav-item" role="presentation">
       <button class="nav-link active" id="link1-tab" data-bs-toggle="tab" data-bs-target="#link1-tab-pane" type="button" role="tab" aria-controls="link1-tab-pane" aria-selected="true">Link 1</button>
     </li>

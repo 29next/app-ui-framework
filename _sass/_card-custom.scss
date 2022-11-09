@@ -1,4 +1,4 @@
-.card-nxt {
+.card {
     margin-bottom: 1.5rem;
     box-shadow: $card-box-shadow;
 
@@ -7,7 +7,7 @@
     }
 }
 
-.card-nxt-header {
+.card-header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,28 +19,28 @@
 
 }
 
-.card-nxt-header--title {
+.card-header-title {
     margin-bottom: 0;
 }
 
-.card-nxt-header--subtitle {
+.card-header-subtitle {
     margin-bottom: 0;
     color: $text-muted;
     font-size: $font-size-sm;
     margin-top: .2rem;
 }
 
-.card-nxt {
-    .table-nxt {
+.card {
+    .table {
         margin-bottom: 0;
     }
 
-    .table-nxt thead th {
+    .table thead th {
         border-top-width: 0;
     }
 
-    .table-nxt thead th,
-    .table-nxt tbody td {
+    .table thead th,
+    .table tbody td {
 
         &:first-child {
             padding-left: $card-spacer-x !important;
@@ -53,8 +53,8 @@
 }
 
 
-.card-nxt>.table-nxt:first-child,
-.card-nxt>.table-responsive:first-child>.table-nxt {
+.card>.table:first-child,
+.card>.table-responsive:first-child>.table {
 
     >thead,
     >tbody,

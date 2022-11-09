@@ -1,4 +1,4 @@
-.table-nxt {
+.table {
   > :not(caption) > * > * {
     padding: $table-cell-padding-y $table-cell-padding-x;
     background-color: var(--#{$prefix}table-bg);

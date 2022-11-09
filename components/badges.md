@@ -43,14 +43,12 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
 <div class=" mb-5">
   <div class="card">
     <div class="card-body">
-      <span class="badge badge-nxt-primary">Primary</span>
-      <span class="badge badge-nxt-secondary">Secondary</span>
-      <span class="badge badge-nxt-success">Success</span>
-      <span class="badge badge-nxt-danger">Danger</span>
-      <span class="badge badge-nxt-warning">Warning</span>
-      <span class="badge badge-nxt-info">Info</span>
-      <span class="badge badge-nxt-light">Light</span>
-      <span class="badge badge-nxt-dark">Dark</span>
+      <span class="badge bg-primary-light">Primary</span>
+      <span class="badge bg-secondary-light">Secondary</span>
+      <span class="badge bg-success-light">Success</span>
+      <span class="badge bg-danger-light">Danger</span>
+      <span class="badge bg-warning-light">Warning</span>
+      <span class="badge bg-info-light">Info</span>
     </div>
   </div>
 </div>
@@ -59,14 +57,12 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
 <div class="card-body" markdown="1">
 
 ```html
-  <span class="badge badge-nxt-primary">Primary</span>
-  <span class="badge badge-nxt-secondary">Secondary</span>
-  <span class="badge badge-nxt-success">Success</span>
-  <span class="badge badge-nxt-danger">Danger</span>
-  <span class="badge badge-nxt-warning">Warning</span>
-  <span class="badge badge-nxt-info">Info</span>
-  <span class="badge badge-nxt-light">Light</span>
-  <span class="badge badge-nxt-dark">Dark</span>
+  <span class="badge bg-primary-light">Primary</span>
+  <span class="badge bg-secondary-light">Secondary</span>
+  <span class="badge bg-success-light">Success</span>
+  <span class="badge bg-danger-light">Danger</span>
+  <span class="badge bg-warning-light">Warning</span>
+  <span class="badge bg-info-light">Info</span>
 ```
 
 </div>
