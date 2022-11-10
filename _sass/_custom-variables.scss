@@ -46,7 +46,7 @@ $dark: $black;
 $min-contrast-ratio:   1.8;
 
 // scss-docs-start theme-color-variables
-$primary: $blue; 
+$primary: $blue;
 $secondary: $gray-700;
 $success: $green;
 $info: $cyan;
@@ -188,7 +188,7 @@ $btn-padding-x:               $input-btn-padding-x;
 $btn-font-family:             $input-btn-font-family;
 $btn-font-size:               $input-btn-font-size;
 $btn-line-height:             $input-btn-line-height;
-$btn-white-space:             null; 
+$btn-white-space:             null;
 $btn-padding-y-sm:            $input-btn-padding-y-sm;
 $btn-padding-x-sm:            $input-btn-padding-x-sm;
 $btn-font-size-sm:            $input-btn-font-size-sm;
@@ -206,6 +206,26 @@ $btn-link-color:              var(--#{$prefix}link-color);
 $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
 $btn-link-disabled-color:     $gray-600;
 // scss-docs-end btn-variables
+
+// Forms
+
+// scss-docs-start form-feedback-variables
+$form-feedback-valid-color: $success;
+$form-feedback-invalid-color: $danger;
+// scss-docs-end form-feedback-variables
+
+// scss-docs-start form-validation-states
+$form-validation-states: (
+    "valid": (
+        "color": $form-feedback-valid-color,
+        "icon": $form-feedback-icon-valid
+    ),
+    "invalid": (
+        "color": $form-feedback-invalid-color,
+        "icon": $form-feedback-icon-invalid
+    )
+);
+// scss-docs-end form-validation-states
 
 
 // Navs
@@ -267,8 +287,6 @@ $header-body-border-width: 1px ;
 $header-body-border-color: $border-color ;
 $header-body-border-color-dark: fade-out($header-body-border-color, .9) ;
 // scss-docs-end header-variables
-
-
 
 
 // Navs
