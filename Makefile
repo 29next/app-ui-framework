@@ -1,7 +1,7 @@
 # Project variables
-PROJECT_NAME ?= app-design-system
+PROJECT_NAME ?= app-ui-framework
 ORG_NAME ?= 29next
-REPO_NAME ?= app-design-system
+REPO_NAME ?= app-ui-framework
 
 # Filenames
 DEV_COMPOSE_FILE := docker-compose.yml
@@ -23,7 +23,6 @@ start:
 stop:
 	${INFO} "stop local..."
 	@ docker-compose -f $(DEV_COMPOSE_FILE) stop $(STOP_ARGS)
-	${INFO} "Removing celery db and pid..."
 
 
 # Cosmetics
