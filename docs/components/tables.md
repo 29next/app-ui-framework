@@ -47,7 +47,7 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
 </div>
 
 
-<div class="card bg-light">
+<div class="card">
 
 <div class="card-body" markdown="1">
 

@@ -57,7 +57,7 @@ $light: $gray-200;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-	"primary": $primary,
+	  "primary": $primary,
     "secondary": $secondary,
     "success": $success,
     "info": $info,
@@ -76,7 +76,7 @@ $border-color:$gray-300;
 // Body
 
 // Settings for the `<body>` element.
-$body-bg:                   $gray-100;
+$body-bg:                   #F0F4F9;
 $body-color:                $black;
 
 
@@ -208,6 +208,21 @@ $btn-link-disabled-color:     $gray-600;
 // scss-docs-end btn-variables
 
 // Forms
+
+// scss-docs-start form-field-variables
+$input-font-size:                       $input-btn-font-size;
+$input-font-size-sm:                    $input-btn-font-size-sm;
+$input-font-size-lg:                    $input-btn-font-size-lg;
+$input-focus-bg:                        $input-bg ;
+$input-focus-border-color:              tint-color($component-active-bg, 50%) ;
+$input-focus-color:                     $input-color ;
+$input-focus-width:                     $input-btn-focus-width ;
+$input-focus-box-shadow:                transparent ;
+
+$input-placeholder-color:               $gray-500;
+$input-plaintext-color:                 $body-color;
+// scss-docs-end form-field-variables
+
 
 // scss-docs-start form-feedback-variables
 $form-feedback-valid-color: $success;

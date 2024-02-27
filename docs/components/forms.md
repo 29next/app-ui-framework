@@ -76,7 +76,7 @@ description: 29next supports all of Bootstrap's default form styling. Please rea
 </div>
 
 
-<div class="card bg-light">
+<div class="card">
 
 <div class="card-body" markdown="1">
 

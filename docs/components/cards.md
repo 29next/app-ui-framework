@@ -10,15 +10,12 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
 <div class=" mb-5">
 <div class="card">
 <div class="card-header">
-  <!-- <div class="card-header-content"> -->
   <div>
     <h4 class="card-header-title">
       Card header title
     </h4>
     <p class="card-header-subtitle">Card header subtitle <a href="#">Link</a></p>
   </div>
-  <!-- </div> -->
-  <!-- <div class="card-header-content"> -->
    <div>
       <a href="#" class="btn btn-primary btn-sm">
         Action
@@ -27,7 +24,6 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
         Action
       </a>
     </div>
-  <!-- </div> -->
 </div>
 <div class="card-body">
 <h4 class="card-title">Card title</h4>
@@ -40,7 +36,7 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
 </div>
 
 <div class=" mb-5">
-<div class="card bg-light">
+<div class="card">
 
 <div class="card-body" markdown="1">
 
@@ -134,8 +130,8 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
 </div>
 </div>
 
-
-<div class="card bg-light">
+<div class=" mb-5">
+<div class="card">
 
 <div class="card-body" markdown="1">
 
@@ -196,6 +192,41 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
 
 </div>
 </div>
+</div>
+
+
+## Example card with search header
+
+<div class=" mb-5">
+<div class="card">
+<div class="card-header">
+    <div class="row align-items-center">
+        <div class="col px-2">
+            <form>
+                <input type="search" class="form-control form-control-flush search" placeholder="Search by order number...">
+            </form>
+        </div>
+        <div class="col-auto">
+          <a href="#" class="btn btn-primary btn-sm">
+            Action
+          </a>
+          <a href="#" class="btn btn-white btn-sm">
+            Action
+          </a>
+        </div>
+    </div>
+</div>
+<div class="card-body">
+<h4 class="card-title">Card title</h4>
+<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis non dolore est fuga nobis ipsum illum eligendi nemo iure repellat, soluta, optio minus ut reiciendis voluptates enim impedit veritatis officiis.</p>
+</div>
+<div class="card-footer">
+<a href="#" class="btn btn-primary">Action</a>
+</div>
+</div>
+</div>
+
+
 
 
 

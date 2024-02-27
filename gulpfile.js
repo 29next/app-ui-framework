@@ -1,9 +1,9 @@
 'use strict';
 const gulp = require('gulp');
-const sass = require('gulp-sass')(require('node-sass'));
+const sass = require('gulp-sass')(require('sass'));
 const cssNano = require('gulp-cssnano');
 const concat = require('gulp-concat');
-sass.compiler = require('node-sass');
+// sass.compiler = require('dart-sass');
 
 gulp.task('sass', function () {
 	   return gulp.src('./src/scss/main.scss')

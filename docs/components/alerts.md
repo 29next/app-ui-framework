@@ -46,7 +46,7 @@ description: Provide contextual feedback messages for typical user actions with 
     </div>
 </div>
 
-<div class="card bg-light">
+<div class="card">
 <div class="card-body" markdown="1">
 
 ```html

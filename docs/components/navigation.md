@@ -28,7 +28,7 @@ description: 29next's in app navigation follows the boostrap tabbed navigation. 
   </div>
 </div>
 <div class=" mb-5">
-<div class="card bg-light">
+<div class="card">
 <div class="card-body" markdown="1">
 
 ```html
@@ -79,7 +79,7 @@ description: 29next's in app navigation follows the boostrap tabbed navigation. 
   </div>
 </div>
 <div class=" mb-5">
-<div class="card bg-light">
+<div class="card">
 <div class="card-body" markdown="1">
 
 ```html

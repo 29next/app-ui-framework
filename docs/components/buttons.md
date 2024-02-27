@@ -15,7 +15,7 @@ description: Use Bootstrap’s custom button styles for actions in forms, dialog
 <button type="button" class="btn btn-primary btn-sm">Small button</button>
 </div>
 
-<div class="card-footer bg-light" markdown="1">
+<div class="card-footer" markdown="1">
 
 ```html
 
@@ -43,7 +43,7 @@ description: Use Bootstrap’s custom button styles for actions in forms, dialog
 <button type="button" class="btn btn-link">Link</button>
 </div>
 
-<div class="card-footer bg-light" markdown="1">
+<div class="card-footer" markdown="1">
 
 ```html
 
@@ -76,7 +76,7 @@ description: Use Bootstrap’s custom button styles for actions in forms, dialog
 <button type="button" class="btn btn-outline-dark">Dark</button>
 </div>
 
-<div class="card-footer bg-light" markdown="1">
+<div class="card-footer" markdown="1">
 
 ```html
 
