@@ -10846,10 +10846,12 @@ textarea.form-control-lg {
   border-top-width: 0;
 }
 .card .table thead th:first-child,
+.card .table tbody th:first-child,
 .card .table tbody td:first-child {
   padding-left: 1.5rem !important;
 }
 .card .table thead th:last-child,
+.card .table tbody th:last-child,
 .card .table tbody td:last-child {
   padding-right: 1.5rem !important;
 }
