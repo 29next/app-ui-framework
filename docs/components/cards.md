@@ -201,6 +201,9 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
 <div class="card">
 <div class="card-header">
     <div class="row align-items-center">
+        <div class="col-auto pe-0">
+            <i class="ti ti-search text-muted"></i>
+        </div>
         <div class="col px-2">
             <form>
                 <input type="search" class="form-control form-control-flush search" placeholder="Search by order number...">
@@ -222,6 +225,48 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
 </div>
 <div class="card-footer">
 <a href="#" class="btn btn-primary">Action</a>
+</div>
+</div>
+</div>
+
+
+<div class=" mb-5">
+<div class="card">
+
+<div class="card-body" markdown="1">
+
+```html
+<div class="card">
+    <div class="card-header">
+        <div class="row align-items-center">
+            <div class="col-auto pe-0">
+                <i class="ti ti-search text-muted"></i>
+            </div>
+            <div class="col px-2">
+                <form>
+                    <input type="search" class="form-control form-control-flush search" placeholder="Search by order number...">
+                </form>
+            </div>
+            <div class="col-auto">
+              <a href="#" class="btn btn-primary btn-sm">
+                Action
+              </a>
+              <a href="#" class="btn btn-white btn-sm">
+                Action
+              </a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis non dolore est fuga nobis ipsum illum eligendi nemo iure repellat, soluta, optio minus ut reiciendis voluptates enim impedit veritatis officiis.</p>
+    </div>
+    <div class="card-footer">
+        <a href="#" class="btn btn-primary">Action</a>
+    </div>
+</div>
+```
+
 </div>
 </div>
 </div>

@@ -290,7 +290,7 @@ table {
 caption {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  color: #3B506C;
+  color: #6E84A3;
   text-align: left;
 }
 
@@ -8032,7 +8032,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #3B506C !important;
+  color: #6E84A3 !important;
 }
 
 .text-black-50 {
@@ -10783,7 +10783,7 @@ textarea.form-control-lg {
 .header-subtitle {
   margin-top: 0.5rem;
   margin-bottom: 0;
-  color: #3B506C;
+  color: #6E84A3;
 }
 
 .header-tabs {
@@ -10834,7 +10834,7 @@ textarea.form-control-lg {
 
 .card-header-subtitle {
   margin-bottom: 0;
-  color: #3B506C;
+  color: #6E84A3;
   font-size: 0.8125000003rem;
   margin-top: 0.2rem;
 }
