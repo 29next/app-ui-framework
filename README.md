@@ -9,7 +9,7 @@ A UI Framework for creating apps with a seemless UX in the dashboard.
 The easiest way to use the files is via CDN, just copy from below and include in the head of your html file.
 
 ```
-<link href="https://cdn.jsdelivr.net/gh/29next/app-ui-framework@0.0.3/dist/css/next-app-ui.min.css" rel="stylesheet" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/gh/29next/app-ui-framework@0.0.4/dist/css/next-app-ui.min.css" rel="stylesheet" crossorigin="anonymous">
 ```
 
 ### Compile from Source
