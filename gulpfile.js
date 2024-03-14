@@ -11,3 +11,9 @@ gulp.task('sass', function () {
 	    .pipe(sass().on('error', sass.logError))
 	    .pipe(gulp.dest('./dist/css/'));
 });
+gulp.task('copy', function () {
+	    return gulp.src('./src/fonts/**/*.*')
+      	.pipe(gulp.dest('./dist/fonts/'));
+});
+
+gulp.task('default', gulp.parallel('sass', 'copy'));
