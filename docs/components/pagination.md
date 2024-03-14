@@ -42,7 +42,7 @@ description: Indicates a series of related content exists across multiple pages.
     </div>
   </div>
 </div>
-<div class="card bg-light">
+<div class="card">
 
 <div class="card-body" markdown="1">
 

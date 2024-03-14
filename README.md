@@ -23,12 +23,14 @@ Source files for the UI are written in [Sass](https://sass-lang.com/) and can be
 
 #### Run on Local
 
-The docs site uses Jekyll for the static site generator with a built in docker image to make installing dependencies easier. Make sure you have Docker installed on your local machine before running the command below.
+The docs site uses Jekyll for the static site generator with a built in docker image to make installing dependencies easier. Make sure you have Jekyll installed on your local machine before running the command below [jekyll](https://jekyllrb.com/docs/).
 
 In a terminal, navigate to the directory with these files and run the following command.
 
 ```
-make run
+bundle install
+
+bundle exec jekyll serve --livereload
 ```
 
 Your should now have the full docs site up and running on your local.

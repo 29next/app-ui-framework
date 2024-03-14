@@ -12,10 +12,17 @@
     flex-direction: row;
     align-items: center;
     min-height: $card-header-height;
+    padding-top: $card-spacer-y / 2;
+    padding-bottom: $card-spacer-y / 2;
 
     >*:first-child {
         flex: 1;
     }
+    .card-header-title {
+        &:not(:last-child) {
+          margin-top: .5rem;
+        }
+      }
 
 }
 
@@ -40,6 +47,7 @@
     }
 
     .table thead th,
+    .table tbody th,
     .table tbody td {
 
         &:first-child {
@@ -76,5 +84,11 @@
                 }
             }
         }
+    }
+}
+.card-footer {
+    .btn {
+        padding: 0.375rem 0.625rem;
+        font-size: 0.875rem;
     }
 }

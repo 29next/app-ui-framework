@@ -1,29 +1,35 @@
 .bg-primary-light {
-    background-color: #d6e0ff;
     --#{$prefix}badge-color: #2b57da;
+    background-color: #d6e0ff;
+    border:1px solid #bdcdff;
 }
 
 .bg-secondary-light {
-    --#{$prefix}badge-color: #666666;
+    --#{$prefix}badge-color: #3e3f40;
     background-color: #e2e6ed;
+    border:1px solid #D5DBE1;
 }
 
 .bg-success-light {
-    --#{$prefix}badge-color: #007b47;
+    --#{$prefix}badge-color: #006908;
     background-color: #ccf7e5;
+    border:1px solid #A6EB84;
 }
 
 .bg-info-light {
-    --#{$prefix}badge-color: #286da5;
-    background-color: #d7eff6;
+    --#{$prefix}badge-color: #0055BC;
+    background-color: #CFF5F6;
+    border:1px solid #A2E5EF;
 }
 
 .bg-warning-light {
-    --#{$prefix}badge-color: #946c00;
-    background-color: #fdf3d9;
+    --#{$prefix}badge-color: #A82C00;
+    background-color: #FCEDB9;
+    border:1px solid #FCD579;
 }
 
 .bg-danger-light {
-    --#{$prefix}badge-color: #c40e33;
-    background-color: #feecf0;
+    --#{$prefix}badge-color: #B3093C;
+    background-color: #FFE7F2;
+    border:1px solid #FFCCDF;
 }
