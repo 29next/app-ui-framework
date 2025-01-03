@@ -7,7 +7,7 @@ REPO_NAME ?= app-ui-framework
 DEV_COMPOSE_FILE := docker-compose.yml
 
 # Check and Inspect Logic
-INSPECT := $$(docker-compose -p $$1 -f $$2 ps -q $$3 | xargs -I ARGS docker inspect -f "{{ .State.ExitCode }}" ARGS)
+INSPECT := $$(docker compose -p $$1 -f $$2 ps -q $$3 | xargs -I ARGS docker inspect -f "{{ .State.ExitCode }}" ARGS)
 
 
 CHECK := @bash -c '\
@@ -18,11 +18,11 @@ CHECK := @bash -c '\
 
 start:
 	${INFO} "Start local..."
-	@ docker-compose -f $(DEV_COMPOSE_FILE) up $(START_ARGS)
+	@ docker compose -f $(DEV_COMPOSE_FILE) up $(START_ARGS)
 
 stop:
 	${INFO} "stop local..."
-	@ docker-compose -f $(DEV_COMPOSE_FILE) stop $(STOP_ARGS)
+	@ docker compose -f $(DEV_COMPOSE_FILE) stop $(STOP_ARGS)
 
 
 # Cosmetics

@@ -280,6 +280,9 @@ $breadcrumb-divider: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/
 // scss-docs-end breadcrumb-variables
 
 
+// Charts
+$chart-height: 240px !default;
+
 // Cards
 
 // scss-docs-start card-variables
@@ -338,4 +341,14 @@ $badge-font-weight:$font-weight-normal;
 $pagination-font-size:$font-size-base ;
 $pagination-color:$dark;
 // scss-docs-end pagination-variables
+
+
+// tooltips
+$tooltip-bg: $white;
+
+// popovers
+$popover-font-size: $font-size-sm;
+$popover-body-color: $gray-700;
+$popover-header-bg: $white;
+
 

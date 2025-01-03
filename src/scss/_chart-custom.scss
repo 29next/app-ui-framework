@@ -1,0 +1,49 @@
+.chart {
+    display: block;
+    position: relative;
+    height: $chart-height;
+}
+
+// Data item indicator
+.popover-body-indicator {
+    display: inline-block;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+// Tooltip
+#chart-tooltip {
+    z-index: 0;
+    min-width: 220px;
+}
+
+.chart-legend {
+    display: flex;
+    justify-content: end;
+    margin-top: -15px; // hack but works
+    font-size: .75rem;
+    text-align: center;
+    color: $gray-700;
+}
+
+
+// Legend
+
+.chart-legend-item {
+    display: inline-flex;
+    align-items: center;
+
+    +.chart-legend-item {
+        margin-left: 1rem;
+    }
+}
+
+.chart-legend-indicator {
+    display: inline-block;
+    width: .6rem;
+    height: .6rem;
+    margin-right: .25rem;
+    border-radius: 20%;
+}
