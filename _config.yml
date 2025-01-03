@@ -13,9 +13,12 @@ kramdown:
 sass:
     load_paths:
       - ../src/scss
-      - _sass
+      - _sass/
     style: compressed
 
+
+exclude:
+  - _sass
 
 # Setup pattern collection
 # collections:
