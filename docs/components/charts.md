@@ -26,18 +26,24 @@ description: Chart.js is an excellent, fully customizable charting library bundl
     </div>
 </div>
 <div class="card-body">
+    <h4>Line Chart</h4>
     <div class="chart">
-        <canvas id="lineComparison"></canvas>
+        <canvas id="lineComparison" data-toggle="legend" data-target="#lineComparisonLegend"></canvas>
+        <div class="chart-legend justify-content-end" id="lineComparisonLegend"></div>
     </div>
 </div>
 <div class="card-body">
+    <h4>Stacked Bar Chart</h4>
     <div class="chart">
-        <canvas id="stackedBar"></canvas>
+        <canvas id="stackedBar" data-toggle="legend" data-target="#stackedBarLegend"></canvas>
+         <div class="chart-legend justify-content-end" id="stackedBarLegend"></div>
     </div>
 </div>
 <div class="card-body">
+    <h4>Line & Stacked Bar Chart Combo</h4>
     <div class="chart">
-        <canvas id="barLineCombo"></canvas>
+        <canvas id="barLineCombo" data-toggle="legend" data-target="#barLineComboLegend"></canvas>
+        <div class="chart-legend justify-content-end" id="barLineComboLegend"></div>
     </div>
 </div>
 <div class="card-footer">

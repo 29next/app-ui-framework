@@ -71,3 +71,8 @@ Chart.defaults.plugins.tooltip.mode = 'index';
 Chart.defaults.plugins.tooltip.intersect = false;
 Chart.defaults.plugins.tooltip.external = externalTooltipHandler;
 Chart.defaults.plugins.tooltip.callbacks.label = externalTooltipLabelHandler;
+
+// Legend
+Chart.defaults.plugins.legend.display = false;
+
+

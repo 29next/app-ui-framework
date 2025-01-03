@@ -1,4 +1,5 @@
 .chart {
+    display: block;
     position: relative;
     height: $chart-height;
 }
@@ -18,8 +19,31 @@
     min-width: 220px;
 }
 
-#chart-tooltip .popover-arrow {
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%) translateX(-.5rem);
+.chart-legend {
+    display: flex;
+    justify-content: end;
+    margin-top: -15px; // hack but works
+    font-size: .75rem;
+    text-align: center;
+    color: $gray-700;
+}
+
+
+// Legend
+
+.chart-legend-item {
+    display: inline-flex;
+    align-items: center;
+
+    +.chart-legend-item {
+        margin-left: 1rem;
+    }
+}
+
+.chart-legend-indicator {
+    display: inline-block;
+    width: .6rem;
+    height: .6rem;
+    margin-right: .25rem;
+    border-radius: 20%;
 }

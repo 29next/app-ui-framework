@@ -34,13 +34,7 @@ function externalTooltipHandler(context) {
     });
 
     bodyLines.forEach((body, i) => {
-        const colors = tooltip.labelColors[i];
-        const indicatorColor =
-            chart.config.type === 'line' && colors.borderColor !== 'rgba(0,0,0,0.1)'
-                ? colors.borderColor
-                : colors.backgroundColor;
-        const indicator = `<span class="popover-body-indicator" style="background-color: ${indicatorColor};"></span>`;
-        content += `<div class="popover-body px-3 py-0 d-flex align-items-center justify-content-left">${indicator}${body}</div>`;
+        content += `<div class="popover-body px-3 py-0 d-flex align-items-center justify-content-left">${body}</div>`;
     });
 
     tooltipEl.innerHTML = content;
@@ -58,7 +52,7 @@ function externalTooltipHandler(context) {
     const tooltipWidth = tooltipEl.offsetWidth;
     const tooltipHeight = tooltipEl.offsetHeight;
 
-    const top = canvasTop - tooltipHeight - 16;
+    const top = canvasTop - tooltipHeight + 8;
     const left = canvasLeft + tooltip.caretX - tooltipWidth / 2;
 
     tooltipEl.style.opacity = 1;
@@ -73,8 +67,32 @@ function externalTooltipLabelHandler(context) {
     const dataset = context.dataset || {};
     const value = context.raw || '';
     const label = dataset.label || 'No Label';
+    const indicatorColor = dataset.backgroundColor || dataset.borderColor || 'rgba(0,0,0,0.1)';
+    const indicatorHHTML = `<span class="popover-body-indicator" style="background-color: ${indicatorColor};"></span>`
     const labelHtml = `<span class="popover-body-label me-auto">${label}</span>`;
     const valueHtml = `<span class="popover-body-value">${value}</span>`;
-    return `${labelHtml}${valueHtml}`;
+    return `${indicatorHHTML}${labelHtml}${valueHtml}`;
 };
 
+// Custom Legends
+const chartLegends = document.querySelectorAll('[data-toggle="legend"]');
+
+function toggleLegend(legend) {
+    const chart = Chart.getChart(legend);
+    const legendEl = document.createElement('div');
+
+    chart.legend.legendItems?.forEach((item) => {
+        const fillColor = item.fillStyle !== 'transparent' ? item.fillStyle : item.strokeStyle;
+        legendEl.innerHTML += `<span class="chart-legend-item"><span class="chart-legend-indicator" style="background-color: ${fillColor}"></span>${item.text}</span>`;
+    });
+    const id = legend.dataset.target;
+    const container = document.querySelector(id);
+    container.appendChild(legendEl);
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    chartLegends.forEach(function (legend) {
+        console.log(legend);
+        toggleLegend(legend);
+    });
+});
