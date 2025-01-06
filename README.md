@@ -2,14 +2,20 @@
 
 A UI Framework for creating apps with a seemless UX in the dashboard.
 
+[See documentation](https://app-ui-components.29next.com/)
+
 ### How to Use
 
 #### Include via CDN
 
 The easiest way to use the files is via CDN, just copy from below and include in the head of your html file.
 
+```html
+<link href="https://cdn.jsdelivr.net/gh/29next/app-ui-framework@0.0.5/dist/css/next-app-ui.min.css" rel="stylesheet" crossorigin="anonymous">
 ```
-<link href="https://cdn.jsdelivr.net/gh/29next/app-ui-framework@0.0.4/dist/css/next-app-ui.min.css" rel="stylesheet" crossorigin="anonymous">
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/29next/app-ui-framework@0.0.5/dist/js/next-app-ui.min.js'"></script>
 ```
 
 ### Compile from Source
