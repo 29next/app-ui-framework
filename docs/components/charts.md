@@ -165,7 +165,7 @@ if (typeof Chart !== 'undefined' && stackedBar) {
 <div class="card-body">
     <div class="chart">
         <canvas id="barLineCombo" data-toggle="legend" data-target="#barLineComboLegend"></canvas>
-        <div class="chart-legend justify-content-end" id="barLineComboLegend"></div>
+        <div class="chart-legend" id="barLineComboLegend"></div>
     </div>
 </div>
         <div class="card-body">
@@ -176,7 +176,7 @@ if (typeof Chart !== 'undefined' && stackedBar) {
 ```html
 <div class="chart">
     <canvas id="barLineCombo" data-toggle="legend" data-target="#barLineCombo"></canvas>
-    <div class="chart-legend justify-content-end" id="barLineComboLegend"></div>
+    <div class="chart-legend" id="barLineComboLegend"></div>
 </div>
 <script>
 var barLineChart = document.getElementById('barLineCombo');
