@@ -20,7 +20,7 @@ description: Chart.js is an excellent, fully customizable charting library bundl
         <div class="card-body">
             <div class="chart">
                 <canvas id="lineComparison" data-toggle="legend" data-target="#lineComparisonLegend"></canvas>
-                <div class="chart-legend justify-content-end" id="lineComparisonLegend"></div>
+                <div class="chart-legend" id="lineComparisonLegend"></div>
             </div>
         </div>
         <div class="card-body">
@@ -30,7 +30,7 @@ description: Chart.js is an excellent, fully customizable charting library bundl
 ```html
 <div class="chart">
     <canvas id="lineComparison" data-toggle="legend" data-target="#lineComparisonLegend"></canvas>
-    <div class="chart-legend justify-content-end" id="lineComparisonLegend"></div>
+    <div class="chart-legend" id="lineComparisonLegend"></div>
 </div>
 <script>
 var lineComparison = document.getElementById('lineComparison');
@@ -38,7 +38,8 @@ if (typeof Chart !== 'undefined' && lineComparison) {
     new Chart(lineComparison, {
         type: 'line',
         data: {
-            labels: ['Jan 1', 'Jan 2', 'Jan 3', 'Jan 5', 'Jan 12', 'Jan 15', 'Jan 18', 'Jan 20', 'Jan 21', 'Jan 22', 'Jan 23', 'Jan 25'],
+            labels: ['Jan 1', 'Jan 2', 'Jan 3', 'Jan 5', 'Jan 12', 'Jan 15', 'Jan 18', 'Jan 20',
+                'Jan 21', 'Jan 22', 'Jan 23', 'Jan 25'],
             datasets: [
                 {
                     label: 'Jan 1 - Jan 25, 2019',
@@ -77,7 +78,7 @@ if (typeof Chart !== 'undefined' && lineComparison) {
         <div class="">
             <div class="chart">
                 <canvas id="stackedBar" data-toggle="legend" data-target="#stackedBarLegend"></canvas>
-                <div class="chart-legend justify-content-end" id="stackedBarLegend"></div>
+                <div class="chart-legend" id="stackedBarLegend"></div>
             </div>
         </div>
         <div class="card-body">
@@ -88,7 +89,7 @@ if (typeof Chart !== 'undefined' && lineComparison) {
 ```html
 <div class="chart">
     <canvas id="stackedBar" data-toggle="legend" data-target="#stackedBarLegend"></canvas>
-    <div class="chart-legend justify-content-end" id="stackedBarLegend"></div>
+    <div class="chart-legend" id="stackedBarLegend"></div>
 </div>
 <script>
 var stackedBar = document.getElementById('stackedBar');
@@ -106,7 +107,8 @@ if (typeof Chart !== 'undefined' && stackedBar) {
             }
         },
         data: {
-            labels: ['Jan 1', 'Jan 2', 'Jan 3', 'Jan 5', 'Jan 12', 'Jan 15', 'Jan 18', 'Jan 20', 'Jan 21', 'Jan 22', 'Jan 23', 'Jan 25'],
+            labels: ['Jan 1', 'Jan 2', 'Jan 3', 'Jan 5', 'Jan 12', 'Jan 15',
+                'Jan 18', 'Jan 20', 'Jan 21', 'Jan 22', 'Jan 23', 'Jan 25'],
             datasets: [
                 {
                     type: "bar",
@@ -192,25 +194,29 @@ if (typeof Chart !== 'undefined' && barLineChart) {
             },
         },
         data: {
-            labels: ['Jul 1', 'Jul 2', 'Jul 3', 'Jul 5', 'Jul 12', 'Jul 15', 'Jul 18', 'Jul 20', 'Jul 21', 'Jul 22', 'Jul 23', 'Jul 25', 'Jul 27', 'Jul 29', 'Jul 31'],
+            labels: ['Jul 1', 'Jul 2', 'Jul 3', 'Jul 5', 'Jul 12', 'Jul 15', 'Jul 18',
+                'Jul 20', 'Jul 21', 'Jul 22', 'Jul 23', 'Jul 25', 'Jul 27', 'Jul 29', 'Jul 31'],
             datasets: [
                 {
                     type: 'line',
                     label: 'Net Revenue',
-                    data: [125.00, 75.00, 42.00, -52.00, 331.00, -81.00, -28.00, -33.00, 9.00, 43.00, 0.00, 63.00, 125.00, 75.00, 42.00],
+                    data: [125.00, 75.00, 42.00, -52.00, 331.00, -81.00, -28.00,
+                        -33.00, 9.00, 43.00, 0.00, 63.00, 125.00, 75.00, 42.00],
                     borderColor: '#2c7be5'
                 },
                 {
                     type: "bar",
                     label: 'Sales',
-                    data: [350.00, 300.00, 200.00, 120.00, 710.00, 210.00, 148.00, 136.00, 198.00, 163.00, 210.00, 232.00, 350.00, 300.00, 200.00],
+                    data: [350.00, 300.00, 200.00, 120.00, 710.00, 210.00, 148.00, 136.00,
+                        198.00, 163.00, 210.00, 232.00, 350.00, 300.00, 200.00],
                     backgroundColor: '#00D97E'
                 },
 
                 {
                     type: "bar",
                     label: 'Refunds',
-                    data: [-125.00, -120.00, -130.00, -232.00, -173.00, -363.00, -332.00, -232.00, -165.00, -126.00, -230.00, -133.00, -125.00, -120.00, -130.00],
+                    data: [-125.00, -120.00, -130.00, -232.00, -173.00, -363.00, -332.00,
+                        -232.00, -165.00, -126.00, -230.00, -133.00, -125.00, -120.00, -130.00],
                     backgroundColor: '#f6c343'
                 }
             ]

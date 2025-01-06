@@ -10913,6 +10913,7 @@ textarea.form-control-lg {
   display: flex;
   justify-content: end;
   margin-top: -15px;
+  padding: 0 20px;
   font-size: 0.75rem;
   text-align: center;
   color: #6E84A3;
