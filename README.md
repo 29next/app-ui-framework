@@ -15,7 +15,7 @@ The easiest way to use the files is via CDN, just copy from below and include in
 ```
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/29next/app-ui-framework@0.0.5/dist/js/next-app-ui.min.js'"></script>
+<script src="https://cdn.jsdelivr.net/gh/29next/app-ui-framework@0.0.5/dist/js/next-app-ui.min.js"></script>
 ```
 
 ### Compile from Source
