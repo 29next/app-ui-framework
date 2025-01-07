@@ -57,7 +57,7 @@ $light: $gray-200;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-	  "primary": $primary,
+	"primary": $primary,
     "secondary": $secondary,
     "success": $success,
     "info": $info,
@@ -344,7 +344,9 @@ $pagination-color:$dark;
 
 
 // tooltips
-$tooltip-bg: $white;
+$tooltip-bg: $gray-400;
+$tooltip-color: $black;
+
 
 // popovers
 $popover-font-size: $font-size-sm;
