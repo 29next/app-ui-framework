@@ -10935,6 +10935,10 @@ textarea.form-control-lg {
   border-radius: 20%;
 }
 
+h6 .text-muted, .h6 .text-muted {
+  letter-spacing: 0.08em;
+}
+
 .table > :not(caption) > * > * {
   padding: 1rem 1rem;
   background-color: var(--bs-table-bg);
