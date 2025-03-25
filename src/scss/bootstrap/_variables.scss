@@ -1634,3 +1634,33 @@ $kbd-bg:                            var(--#{$prefix}body-color) !default;
 $nested-kbd-font-weight:            null !default; // Deprecated in v5.2.0, removing in v6
 
 $pre-color:                         null !default;
+
+
+// Spinner spinner
+$spinner-sizes: (
+    xs: (
+        size: 1rem,
+        border-width: 1px
+    ),
+    sm: (
+        size: 2rem,
+        border-width: 2px
+    ),
+    md: (
+        size: 3rem,
+        border-width: 3px
+    ),
+    lg: (
+        size: 4rem,
+        border-width: 4px
+    )
+) !default;
+
+// $spinner-border-width: 4px !default;
+$spinner-animation-speed: 0.7s !default;
+$spinner-border-colors: (
+  default: (
+    primary: $primary,
+    secondary: $gray-300
+  )
+);

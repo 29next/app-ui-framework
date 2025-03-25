@@ -1,0 +1,59 @@
+@keyframes spinner-rotation {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(359deg); }
+}
+
+@mixin spinner-size($size-key) {
+    $config: map-get($spinner-sizes, $size-key);
+    width: map-get($config, size);
+    height: map-get($config, size);
+  }
+
+  @mixin spinner-border-width($size-key) {
+    $config: map-get($spinner-sizes, $size-key);
+    border-width: map-get($config, border-width);
+  }
+
+.spinner {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+
+    // Default size
+    @include spinner-size(md);
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-style: solid;
+      border-radius: 50%;
+      animation: spinner-rotation $spinner-animation-speed linear infinite;
+      border-color: $primary $gray-300 $gray-300;
+      @include spinner-border-width(md);
+    }
+
+    &-xs {
+        @include spinner-size(xs);
+        &::before {
+            @include spinner-border-width(xs);
+        }
+    }
+
+    &-sm {
+        @include spinner-size(sm);
+        &::before {
+            @include spinner-border-width(sm);
+        }
+    }
+
+    &-lg {
+        @include spinner-size(lg);
+        &::before {
+            @include spinner-border-width(lg);
+        }
+    }
+}
