@@ -10811,6 +10811,10 @@ textarea.form-control-lg {
   --bs-btn-hover-border-color: var(--bs-gray-400);
 }
 
+.btn-sm, .btn-group-sm > .btn {
+  line-height: 1.75;
+}
+
 .card {
   margin-bottom: 1.5rem;
   box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
