@@ -31,7 +31,6 @@ description: Available loaders to use while waiting for content to load.
 
 <div class="card">
     <div class="card-body" markdown="1">
-
 ```html
 <div class="m-3">
     <div class="spinner spinner-lg"></div>
@@ -46,6 +45,5 @@ description: Available loaders to use while waiting for content to load.
     <div class="spinner spinner-xs"></div>
 </div>
 ```
-
 <div>
 </div>

@@ -200,6 +200,7 @@ $btn-font-family:             $input-btn-font-family;
 $btn-font-size:               $input-btn-font-size;
 $btn-line-height:             $input-btn-line-height;
 $btn-white-space:             null;
+$btn-line-height-sm:          1.75;
 $btn-padding-y-sm:            $input-btn-padding-y-sm;
 $btn-padding-x-sm:            $input-btn-padding-x-sm;
 $btn-font-size-sm:            $input-btn-font-size-sm;
@@ -367,3 +368,33 @@ $popover-header-bg: $white;
 
 // typography
 $h6-muted-letter-spacing: .08em;
+
+
+
+// Spinner
+$spinner-sizes: (
+    xs: (
+        size: 1rem,
+        border-width: 1px
+    ),
+    sm: (
+        size: 2rem,
+        border-width: 2px
+    ),
+    md: (
+        size: 3rem,
+        border-width: 3px
+    ),
+    lg: (
+        size: 4rem,
+        border-width: 4px
+    )
+) !default;
+
+$spinner-animation-speed: 0.7s !default;
+$spinner-border-colors: (
+  default: (
+    primary: $primary,
+    secondary: $gray-300
+  )
+);

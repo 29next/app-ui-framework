@@ -3,3 +3,8 @@
   --bs-btn-hover-bg:  var(--bs-gray-100);
   --bs-btn-hover-border-color: var(--bs-gray-400);
 }
+
+// TODO: fix temporary work around when update bootstrap
+.btn-sm {
+    line-height: 1.75;
+}
