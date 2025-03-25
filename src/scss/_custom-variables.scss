@@ -82,6 +82,8 @@ $theme-colors: (
 
 // scss-docs-start border-variables
 $border-color:$gray-300;
+$border-color-translucent: rgba(18,38,63,.1);
+
 // scss-docs-end border-variables
 
 // Body
@@ -146,6 +148,16 @@ $display-font-weight: 600 ;
 // scss-docs-start type-variables
 $text-muted: $gray-700;
 // scss-docs-end type-variables
+
+// Dropdowns
+$dropdown-link-hover-bg: transparent;
+$dropdown-link-color: $gray-700;
+$dropdown-link-hover-color: $black;
+$dropdown-item-padding-x: 1.5rem;
+$dropdown-item-padding-y: 0.375rem;
+$dropdown-link-active-color: $black;
+$dropdown-link-active-bg: transparent;
+
 
 // Tables
 

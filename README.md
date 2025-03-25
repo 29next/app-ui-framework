@@ -11,11 +11,11 @@ A UI Framework for creating apps with a seemless UX in the dashboard.
 The easiest way to use the files is via CDN, just copy from below and include in the head of your html file.
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/29next/app-ui-framework@0.0.7/dist/css/next-app-ui.min.css" rel="stylesheet" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/gh/29next/app-ui-framework@0.0.8/dist/css/next-app-ui.min.css" rel="stylesheet" crossorigin="anonymous">
 ```
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/29next/app-ui-framework@0.0.7/dist/js/next-app-ui.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/29next/app-ui-framework@0.0.8/dist/js/next-app-ui.min.js"></script>
 ```
 
 ### Compile from Source
