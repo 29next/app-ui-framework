@@ -10811,6 +10811,7 @@ textarea.form-control-lg {
   --bs-btn-border-color: var(--bs-gray-300);
   --bs-btn-hover-bg: var(--bs-gray-100);
   --bs-btn-hover-border-color: var(--bs-gray-400);
+  --bs-btn-color: var(--bs-gray-900);
 }
 
 .btn-sm, .btn-group-sm > .btn {
