@@ -288,8 +288,8 @@ table {
 }
 
 caption {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   color: #6E84A3;
   text-align: left;
 }
@@ -1729,7 +1729,7 @@ progress {
   border-color: var(--bs-table-border-color);
 }
 .table > :not(caption) > * > * {
-  padding: 1rem 1rem;
+  padding: 0.75rem 0.5rem;
   background-color: var(--bs-table-bg);
   border-bottom-width: 1px;
   box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
@@ -1750,7 +1750,7 @@ progress {
 }
 
 .table-sm > :not(caption) > * > * {
-  padding: 1rem 1rem;
+  padding: 0.75rem 0.5rem;
 }
 
 .table-bordered > :not(caption) > * {
@@ -11009,7 +11009,7 @@ h6.text-muted, .text-muted.h6 {
 }
 
 .table > :not(caption) > * > * {
-  padding: 1rem 1rem;
+  padding: 0.75rem 0.5rem;
   background-color: var(--bs-table-bg);
   border-top-width: 1px;
   border-bottom-width: 0;
@@ -11021,7 +11021,7 @@ h6.text-muted, .text-muted.h6 {
   font-size: 0.8125000003rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: #95AAC9;
+  color: #6E84A3;
   border-bottom-width: 1px;
 }
 .table thead th, .table tbody th, .table tbody td {

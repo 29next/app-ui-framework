@@ -11,7 +11,7 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
   <div class="card">
     <div class="card-body">
       <div class="table-responsive">
-        <table class="table table-sm table-hover">
+        <table class="table table-sm">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -53,7 +53,7 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
 
 ```html
   <div class="table-responsive">
-    <table class="table table-sm table-hover">
+    <table class="table table-sm">
       <thead>
         <tr>
           <th scope="col">#</th>
