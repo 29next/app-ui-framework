@@ -1,0 +1,152 @@
+.card-timeline {
+    .card-body {
+      padding-top: 0;
+    }
+
+    &--item {
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      border-radius: 3px;
+
+      > * {
+        padding: 10px;
+      }
+
+      &:last-child {
+        .card-timeline--dot:after {
+          display: none;
+        }
+      }
+
+      .card-timeline--dot {
+        position: relative;
+        &:before,
+        &:after {
+          position: absolute;
+          top: 15px;
+          left: 50%;
+          width: 10px;
+          height: 10px;
+          content: '';
+          transform: translateX(-50%);
+        }
+
+        &:before {
+          border-radius: 50%;
+          background-color: var(--bs-gray-700);
+        }
+
+        &:after {
+          top: 25px;
+          bottom: -15px;
+          width: 0;
+          height: auto;
+          border-width: 2px;
+          border-style: solid;
+          border-color: rgba(160, 175, 185, 0.15);
+          border-top-width: 0;
+          border-right-width: 0;
+          border-bottom-width: 0;
+          border-radius: 0;
+        }
+      }
+
+      &.is-form {
+        .card-timeline--content {
+          width: 100%;
+          padding-bottom: 20px;
+        }
+      }
+
+      &.is-note {
+        .card {
+          width: 100%;
+          margin-bottom: 0;
+          background-color: var(--bs-gray-100);
+          box-shadow: none;
+        }
+
+        .card-body {
+          padding: 0.75rem;
+        }
+
+        p:last-child {
+          margin-bottom: 0;
+        }
+
+        .close {
+          position: absolute;
+          top: 0.75rem;
+          right: 1.5rem;
+          z-index: 1;
+        }
+      }
+
+      &.is-note + .card-timeline--item:not(.is-note) {
+        > * {
+          padding: 20px 10px 10px;
+        }
+
+        .card-timeline--dot {
+          &:before {
+            top: 25px;
+          }
+
+          &:after {
+            top: 0;
+          }
+        }
+
+        &.no-event {
+          > * {
+            padding: 0 10px 10px;
+          }
+
+          .card-timeline--dot {
+            &:before {
+              content: none;
+            }
+
+            &:after {
+              top: 0;
+              bottom: -10px;
+            }
+          }
+        }
+      }
+      + .is-note {
+        padding-top: 10px;
+      }
+    }
+
+    &--content {
+      &.is-dropdown {
+        .ti {
+          transition: 0.3s transform ease-in-out;
+        }
+
+        .collapsed .ti {
+          transform: rotate(180deg);
+        }
+      }
+
+      .card-timeline--dropdown {
+        display: flex;
+        align-items: center;
+      }
+
+      dl {
+        font-size: 0.813rem;
+      }
+
+      p {
+        font-size: 0.813rem;
+        margin-bottom: 0.5rem;
+
+        &:last-of-type {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
