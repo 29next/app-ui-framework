@@ -92,3 +92,21 @@
         font-size: 0.875rem;
     }
 }
+
+// card header widget borders
+
+@include media-breakpoint-up(md) {
+    .card-header-widgets > div  {
+        border-right: 1px solid var(--bs-border-color);
+    }
+
+    .card-header-widgets > div:last-child {
+        border-right: none;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .card-header-widgets > div {
+        border-right: none;
+    }
+}

@@ -10922,6 +10922,19 @@ textarea.form-control-lg {
   font-size: 0.875rem;
 }
 
+@media (min-width: 768px) {
+  .card-header-widgets > div {
+    border-right: 1px solid var(--bs-border-color);
+  }
+  .card-header-widgets > div:last-child {
+    border-right: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .card-header-widgets > div {
+    border-right: none;
+  }
+}
 .chart {
   display: block;
   position: relative;

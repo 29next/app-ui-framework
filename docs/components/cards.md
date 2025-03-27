@@ -12,7 +12,7 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
 <div class="card-header">
   <div>
     <h4 class="card-header-title">
-      Card header title
+      Card header with Actions
     </h4>
     <p class="card-header-subtitle">Card header subtitle <a href="#">Link</a></p>
   </div>
@@ -44,37 +44,155 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
 
 <div class=" mb-5">
 <div class="card">
-
-<div class="card-body" markdown="1">
-
-```html
-<div class="card">
-    <div class="card-header">
-        <div>
-            <h4 class="card-header-title">
-                Card header title
-            </h4>
-            <p class="card-header-subtitle">Card header subtitle <a href="#">Link</a></p>
+<div class="card-header">
+  <div>
+    <h4 class="card-header-title">
+      Card Header with <code>.card-header-widgets</code>
+    </h4>
+  </div>
+  <div class="d-flex">
+      <a href="#" class="btn btn-white btn-sm me-2">
+        Example Action
+      </a>
+     <div class="dropdown">
+        <button class="btn btn-sm btn-white dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            More Actions
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
         </div>
-        <div>
-            <a href="#" class="btn btn-primary btn-sm">
-                Action
-            </a>
-            <a href="#" class="btn btn-white btn-sm">
-                Action
-            </a>
-        </div>
-    </div>
-    <div class="card-body">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis non dolore est fuga nobis ipsum illum eligendi nemo iure repellat, soluta, optio minus ut reiciendis voluptates enim impedit veritatis officiis.</p>
-    </div>
-    <div class="card-footer">
-        <a href="#" class="btn btn-primary">Action</a>
     </div>
 </div>
-```
-
+<div class="card-header">
+  <div class="row card-header-widgets">
+    <div class="col-lg-2 col-sm-6 col-xs-12 px-3 py-2">
+        <div class="row justify-content-between align-items-end">
+            <div class="col-12">
+                <h6 class="text-uppercase text-muted mb-2">Active Vistors
+                </h6>
+            </div>
+            <div class="col pb-1 pt-1">
+                <span class="fw-bold mr-2 mb-0 text-dark" id="total_sales" data-currency="USD">57</span>
+            </div>
+            <div class="col-auto">
+                <span class="pulse-beacon"></span>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
+        <div class="row">
+            <div class="col-12">
+                <h6 class="text-uppercase text-muted mb-2">Unique Visitors</h6>
+            </div>
+        </div>
+        <div class="row flex-nowrap">
+            <div class="col pb-1 pt-1">
+                <span class="fw-bold mr-2 mb-0 text-dark">3,245</span>
+            </div>
+            <div class="col text-end pb-1 pt-1">
+                <span class="fw-bold text-success h5"><span class="ti ti-arrow-up"></span>87.2%</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
+        <div class="row">
+            <div class="col-12">
+                <h6 class="text-uppercase text-muted mb-2">Carts Created</h6>
+            </div>
+        </div>
+        <div class="row flex-nowrap">
+            <div class="col pb-1 pt-1">
+                <span class="fw-bold mr-2 mb-0 text-dark">3,245</span>
+            </div>
+            <div class="col text-end pb-1 pt-1">
+                <span class="fw-bold text-success h5"><span class="ti ti-arrow-up"></span>17.2%</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
+        <div class="row">
+            <div class="col-12">
+                <h6 class="text-uppercase text-muted mb-2">Sales</h6>
+            </div>
+        </div>
+        <div class="row flex-nowrap">
+            <div class="col pb-1 pt-1">
+                <span class="fw-bold mr-2 mb-0 text-dark">$12,245</span>
+            </div>
+            <div class="col text-end pb-1 pt-1">
+                <span class="fw-bold text-success h5"><span class="ti ti-arrow-up"></span>23.2%</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
+        <div class="row">
+            <div class="col-12">
+                <h6 class="text-uppercase text-muted mb-2">Conversion Rate</h6>
+            </div>
+        </div>
+        <div class="row flex-nowrap">
+            <div class="col pb-1 pt-1">
+                <span class="fw-bold mr-2 mb-0 text-dark">80.5%</span>
+            </div>
+            <div class="col text-end pb-1 pt-1">
+                <span class="fw-bold text-success h5"><span class="ti ti-arrow-up"></span>3.2%</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
+        <div class="row">
+            <div class="col-12">
+                <h6 class="text-uppercase text-muted mb-2">AOV</h6>
+            </div>
+        </div>
+        <div class="row flex-nowrap">
+            <div class="col pb-1 pt-1">
+                <span class="fw-bold mr-2 mb-0 text-dark">$122.23</span>
+            </div>
+            <div class="col text-end pb-1 pt-1">
+                <span class="fw-bold text-danger h5"><span class="ti ti-arrow-down"></span>3.2%</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="table-responsive">
+      <table class="table card-table table-sm ">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+<div class="card-footer">
+<a href="#" class="btn btn-primary">Action</a>
 </div>
 </div>
 </div>
