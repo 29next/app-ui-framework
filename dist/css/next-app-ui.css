@@ -612,7 +612,7 @@ progress {
 }
 
 .container {
-  max-width: 0;
+  max-width: 100%;
 }
 
 @media (min-width: 576px) {
@@ -637,7 +637,7 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1400px;
+    max-width: 1320px;
   }
 }
 .row {
@@ -10816,6 +10816,12 @@ textarea.form-control-lg {
 
 .btn-sm, .btn-group-sm > .btn {
   line-height: 1.75;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 36px;
+  }
 }
 
 .card {
