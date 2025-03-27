@@ -16,13 +16,20 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
     </h4>
     <p class="card-header-subtitle">Card header subtitle <a href="#">Link</a></p>
   </div>
-   <div>
-      <a href="#" class="btn btn-primary btn-sm">
-        Action
+   <div class="d-flex">
+      <a href="#" class="btn btn-white btn-sm me-2">
+        Example Action
       </a>
-      <a href="#" class="btn btn-white btn-sm">
-        Action
-      </a>
+     <div class="dropdown">
+        <button class="btn btn-sm btn-white dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            More Actions
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+        </div>
     </div>
 </div>
 <div class="card-body">

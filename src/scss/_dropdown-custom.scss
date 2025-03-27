@@ -1,0 +1,11 @@
+.dropdown-toggle::after {
+    width: auto;
+    height: auto;
+    border: none !important;
+    vertical-align: middle;
+    font-family: "tabler-icons" !important;
+}
+
+.dropdown-toggle::after {
+    content: "\ea5f";
+}

@@ -10809,6 +10809,7 @@ textarea.form-control-lg {
 
 .btn-white {
   --bs-btn-border-color: var(--bs-gray-300);
+  --bs-btn-active-border-color: var(--bs-gray-300);
   --bs-btn-hover-bg: var(--bs-gray-100);
   --bs-btn-hover-border-color: var(--bs-gray-400);
   --bs-btn-color: var(--bs-gray-900);
@@ -10816,6 +10817,18 @@ textarea.form-control-lg {
 
 .btn-sm, .btn-group-sm > .btn {
   line-height: 1.75;
+}
+
+.dropdown-toggle::after {
+  width: auto;
+  height: auto;
+  border: none !important;
+  vertical-align: middle;
+  font-family: "tabler-icons" !important;
+}
+
+.dropdown-toggle::after {
+  content: "\ea5f";
 }
 
 @media (min-width: 768px) {
