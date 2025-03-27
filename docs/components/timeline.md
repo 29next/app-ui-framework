@@ -69,6 +69,9 @@ description: Timelines are a great way to show historical events to and provide 
                     </div>
                 </div>
             </div>
+            <div class="card-timeline--item no-event">
+               <div class="card-timeline--dot"></div>
+            </div>
             <div class="card-timeline--item">
                 <div class="card-timeline--dot"></div>
                 <div class="card-timeline--content">
@@ -140,6 +143,9 @@ description: Timelines are a great way to show historical events to and provide 
                 </div>
             </div>
         </div>
+    </div>
+    <div class="card-timeline--item no-event">
+        <div class="card-timeline--dot"></div>
     </div>
     <div class="card-timeline--item">
         <div class="card-timeline--dot"></div>
