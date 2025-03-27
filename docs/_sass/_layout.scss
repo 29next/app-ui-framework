@@ -10,7 +10,7 @@
         @include media-breakpoint-up(md) {
             bottom: 0;
             display: block;
-            max-width: 250px;
+            max-width: 220px;
             overflow-y: auto;
             padding-left: 1.5rem;
             padding-right: 1.5rem;
@@ -116,6 +116,6 @@
 
 .main-content {
     @include media-breakpoint-up(md) {
-        margin-left: 250px
+        margin-left: 220px
     }
 }
