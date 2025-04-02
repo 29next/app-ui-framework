@@ -49,7 +49,10 @@
 // 6. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "bootstrap/utilities/api";
 
+
 // 7. Add additional custom code here
+@import "flatpickr";
+@import "flatpickr-custom";
 @import "header-custom";
 @import "alert-custom";
 @import "button-custom";
