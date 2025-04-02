@@ -28,8 +28,8 @@
     &.prevMonthDay, &.nextMonthDay {
         &:focus, &:hover {
             color: $gray-500;
-            border-color: $gray-300;
-            background: $gray-200;
+            border-color: $gray-400;
+            background: $gray-300;
         }
     }
 }
