@@ -14,9 +14,11 @@ const paths = {
     ],
     js: [
         './src/js/bootstrap.bundle.min.js', // Bootstrap JS
+        './src/js/flatpickr.js', // flatpickr
         './src/js/utils.js', // Utilties
         './src/js/chart.umd.js', // Chart.js
         './src/js/chart-theme.js', // Custom Chart Theme
+        './src/js/theme.js', // Custom Theme JS
     ],
     fonts: [
         './src/fonts/**/*.*'
