@@ -4,6 +4,34 @@
     &:hover, &:focus {
         border-color: $gray-400;
         background: $gray-300;
+}
+    &.inRange {
+        background-color: $gray-300;
+        box-shadow: -5px 0 0 $gray-300, 5px 0 0 $gray-300;
+    }
+    &.startRange {
+        background: $primary;
+        border-color: $primary;
+        border-top-left-radius: $border-radius;
+        border-bottom-left-radius: $border-radius;
+        &:hover, &:focus {
+            background: $primary;
+            border-color: $primary;
+        }
+    }
+    &.endRange {
+        background: $primary;
+        border-color: $primary;
+        border-top-right-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
+        &:hover, &:focus {
+            background: $primary;
+            border-color: $primary;
+        }
+        &.endRange {
+            border-top-right-radius: $border-radius;
+            border-bottom-right-radius: $border-radius;
+        }
     }
     &.selected {
         background: $primary;
@@ -13,6 +41,14 @@
         &:hover {
             background: $primary;
             border-color: $primary;
+        }
+        &.startRange {
+            border-top-left-radius: $border-radius;
+            border-bottom-left-radius: $border-radius;
+        }
+        &.endRange {
+            border-top-right-radius: $border-radius;
+            border-bottom-right-radius: $border-radius;
         }
     }
     &.today {

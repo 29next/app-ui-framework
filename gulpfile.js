@@ -18,6 +18,7 @@ const paths = {
         './src/js/utils.js', // Utilties
         './src/js/chart.umd.js', // Chart.js
         './src/js/chart-theme.js', // Custom Chart Theme
+        './src/js/theme.js', // Custom Theme JS
     ],
     fonts: [
         './src/fonts/**/*.*'
