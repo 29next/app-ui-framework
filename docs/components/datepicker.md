@@ -13,13 +13,13 @@ description: flatpickr.js is an excellent full featured date picker library that
   </div>
     <div class="card-body">
     <p>Initialize a date picker using <code>data-datepicker</code> property on your form input.</p>
-    <p>Cstomize the date picker options by passing valid JSON, such as <code>data-datepicker='{"mode": "range"}'</code> </p>
+    <p>Customize the date picker options by passing valid JSON, such as <code>data-datepicker='{"mode": "range"}'</code>.</p>
         <div class="my-3">
-            <label class="form-label">Date Picker Exmaple</label>
+            <label class="form-label">Date Picker Example</label>
             <input class="form-control" data-datepicker  placeholder="Example Date Picker" />
         </div>
         <div class="my-3">
-             <label class="form-label">Range Picker Exmaple</label>
+             <label class="form-label">Range Picker Example</label>
             <input class="form-control" data-datepicker='{"mode": "range"}' placeholder="Example Date Range Picker" />
         </div>
     </div>
@@ -34,11 +34,11 @@ description: flatpickr.js is an excellent full featured date picker library that
 ```html
 
 <div class="my-3">
-    <label class="form-label">Date Picker Exmaple</label>
+    <label class="form-label">Date Picker Example</label>
     <input class="form-control" data-datepicker  placeholder="Example Date Picker" />
 </div>
 <div class="my-3">
-    <label class="form-label">Range Picker Exmaple</label>
+    <label class="form-label">Range Picker Example</label>
     <input class="form-control" data-datepicker='{"mode": "range"}' placeholder="Example Date Range Picker" />
 </div>
 ```
