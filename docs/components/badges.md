@@ -39,7 +39,7 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
 </div>
 </div>
 </div>
-## 29next system badges
+## Light Badges
 <div class=" mb-5">
   <div class="card">
     <div class="card-body">
@@ -63,6 +63,35 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
   <span class="badge bg-danger-light">Danger</span>
   <span class="badge bg-warning-light">Warning</span>
   <span class="badge bg-info-light">Info</span>
+```
+
+</div>
+</div>
+
+## Dismissible Badges
+<div class=" mb-5">
+  <div class="card">
+    <div class="card-body">
+      <span class="badge bg-primary-light badge-dismissible">Primary <button type="button" class="btn-close"></button></span>
+      <span class="badge bg-secondary-light badge-dismissible">Secondary <button type="button" class="btn-close"></button></span>
+      <span class="badge bg-success-light badge-dismissible">Success <button type="button" class="btn-close"></button></span>
+      <span class="badge bg-danger-light badge-dismissible">Danger <button type="button" class="btn-close"></button></span>
+      <span class="badge bg-warning-light badge-dismissible">Warning <button type="button" class="btn-close"></button></span>
+      <span class="badge bg-info-light badge-dismissible">Info <button type="button" class="btn-close"></button></span>
+    </div>
+  </div>
+</div>
+<div class="card">
+
+<div class="card-body" markdown="1">
+
+```html
+<span class="badge bg-primary-light badge-dismissible">Primary <button type="button" class="btn-close"></button></span>
+<span class="badge bg-secondary-light badge-dismissible">Secondary <button type="button" class="btn-close"></button></span>
+<span class="badge bg-success-light badge-dismissible">Success <button type="button" class="btn-close"></button></span>
+<span class="badge bg-danger-light badge-dismissible">Danger <button type="button" class="btn-close"></button></span>
+<span class="badge bg-warning-light badge-dismissible">Warning <button type="button" class="btn-close"></button></span>
+<span class="badge bg-info-light badge-dismissible">Info <button type="button" class="btn-close"></button></span>
 ```
 
 </div>
