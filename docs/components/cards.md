@@ -159,6 +159,13 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
     </div>
 </div>
 </div>
+<div class="card-body py-2">
+    <div>
+        <span class="badge bg-secondary-light badge-dismissible">Status: Open <button type="button" class="btn-close"></button></span>
+        <span class="badge bg-secondary-light badge-dismissible">Payment Status: Pending <button type="button" class="btn-close"></button></span>
+        <span class="badge bg-secondary-light badge-dismissible">Fulfillment Status: Unfulfilled, On Hold <button type="button" class="btn-close"></button></span>
+    </div>
+</div>
 <div class="table-responsive">
       <table class="table card-table table-sm ">
         <thead>
