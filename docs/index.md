@@ -27,6 +27,12 @@ Pin your app to a [release version](https://github.com/29next/app-ui-framework/r
 
 As a reference, here are our primary CDN links.
 
+<div class="card">
+<div class="card-header">
+<div>
+<h4 class="card-header-title">CDN Links</h4>
+</div>
+</div>
 <table class="table table-sm bg-white">
     <thead>
         <tr>
@@ -45,6 +51,7 @@ As a reference, here are our primary CDN links.
         </tr>
     </tbody>
 </table>
+</div>
 
 ### Base Layout
 
