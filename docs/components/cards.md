@@ -66,107 +66,107 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
         </div>
     </div>
 </div>
-<div class="card-header">
-  <div class="row card-header-widgets">
-    <div class="col-lg-2 col-sm-6 col-xs-12 px-3 py-2">
-        <div class="row justify-content-between align-items-end">
-            <div class="col-12">
-                <h6 class="text-uppercase text-muted mb-2">Active Vistors
-                </h6>
-            </div>
-            <div class="col pb-1 pt-1">
-                <span class="fw-bold mr-2 mb-0 text-dark" id="total_sales" data-currency="USD">57</span>
-            </div>
-            <div class="col-auto">
-                <span class="pulse-beacon"></span>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
-        <div class="row">
-            <div class="col-12">
-                <h6 class="text-uppercase text-muted mb-2">Unique Visitors</h6>
+    <div class="card-header">
+    <div class="row card-header-widgets">
+        <div class="col-lg-2 col-sm-6 col-xs-12 px-3 py-2">
+            <div class="row justify-content-between align-items-end">
+                <div class="col-12">
+                    <h6 class="text-uppercase text-muted mb-2">Active Vistors
+                    </h6>
+                </div>
+                <div class="col pb-1 pt-1">
+                    <span class="fw-bold mr-2 mb-0 text-dark" id="total_sales" data-currency="USD">57</span>
+                </div>
+                <div class="col-auto">
+                    <span class="pulse-beacon"></span>
+                </div>
             </div>
         </div>
-        <div class="row flex-nowrap">
-            <div class="col pb-1 pt-1">
-                <span class="fw-bold mr-2 mb-0 text-dark">3,245</span>
+        <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
+            <div class="row">
+                <div class="col-12">
+                    <h6 class="text-uppercase text-muted mb-2">Unique Visitors</h6>
+                </div>
             </div>
-            <div class="col text-end pb-1 pt-1">
-                <span class="fw-bold text-success h5"><span class="ti ti-arrow-up"></span>87.2%</span>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
-        <div class="row">
-            <div class="col-12">
-                <h6 class="text-uppercase text-muted mb-2">Carts Created</h6>
-            </div>
-        </div>
-        <div class="row flex-nowrap">
-            <div class="col pb-1 pt-1">
-                <span class="fw-bold mr-2 mb-0 text-dark">3,245</span>
-            </div>
-            <div class="col text-end pb-1 pt-1">
-                <span class="fw-bold text-success h5"><span class="ti ti-arrow-up"></span>17.2%</span>
+            <div class="row flex-nowrap">
+                <div class="col pb-1 pt-1">
+                    <span class="fw-bold mr-2 mb-0 text-dark">3,245</span>
+                </div>
+                <div class="col text-end pb-1 pt-1">
+                    <span class="fw-bold text-success h5"><span class="ti ti-arrow-up"></span>87.2%</span>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
-        <div class="row">
-            <div class="col-12">
-                <h6 class="text-uppercase text-muted mb-2">Sales</h6>
+        <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
+            <div class="row">
+                <div class="col-12">
+                    <h6 class="text-uppercase text-muted mb-2">Carts Created</h6>
+                </div>
+            </div>
+            <div class="row flex-nowrap">
+                <div class="col pb-1 pt-1">
+                    <span class="fw-bold mr-2 mb-0 text-dark">3,245</span>
+                </div>
+                <div class="col text-end pb-1 pt-1">
+                    <span class="fw-bold text-success h5"><span class="ti ti-arrow-up"></span>17.2%</span>
+                </div>
             </div>
         </div>
-        <div class="row flex-nowrap">
-            <div class="col pb-1 pt-1">
-                <span class="fw-bold mr-2 mb-0 text-dark">$12,245</span>
+        <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
+            <div class="row">
+                <div class="col-12">
+                    <h6 class="text-uppercase text-muted mb-2">Sales</h6>
+                </div>
             </div>
-            <div class="col text-end pb-1 pt-1">
-                <span class="fw-bold text-success h5"><span class="ti ti-arrow-up"></span>23.2%</span>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
-        <div class="row">
-            <div class="col-12">
-                <h6 class="text-uppercase text-muted mb-2">Conversion Rate</h6>
-            </div>
-        </div>
-        <div class="row flex-nowrap">
-            <div class="col pb-1 pt-1">
-                <span class="fw-bold mr-2 mb-0 text-dark">80.5%</span>
-            </div>
-            <div class="col text-end pb-1 pt-1">
-                <span class="fw-bold text-success h5"><span class="ti ti-arrow-up"></span>3.2%</span>
+            <div class="row flex-nowrap">
+                <div class="col pb-1 pt-1">
+                    <span class="fw-bold mr-2 mb-0 text-dark">$12,245</span>
+                </div>
+                <div class="col text-end pb-1 pt-1">
+                    <span class="fw-bold text-success h5"><span class="ti ti-arrow-up"></span>23.2%</span>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
-        <div class="row">
-            <div class="col-12">
-                <h6 class="text-uppercase text-muted mb-2">AOV</h6>
+        <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
+            <div class="row">
+                <div class="col-12">
+                    <h6 class="text-uppercase text-muted mb-2">Conversion Rate</h6>
+                </div>
+            </div>
+            <div class="row flex-nowrap">
+                <div class="col pb-1 pt-1">
+                    <span class="fw-bold mr-2 mb-0 text-dark">80.5%</span>
+                </div>
+                <div class="col text-end pb-1 pt-1">
+                    <span class="fw-bold text-success h5"><span class="ti ti-arrow-up"></span>3.2%</span>
+                </div>
             </div>
         </div>
-        <div class="row flex-nowrap">
-            <div class="col pb-1 pt-1">
-                <span class="fw-bold mr-2 mb-0 text-dark">$122.23</span>
+        <div class="col-lg-2 col-sm-6  col-xs-12 px-3 py-2 card-header-widget">
+            <div class="row">
+                <div class="col-12">
+                    <h6 class="text-uppercase text-muted mb-2">AOV</h6>
+                </div>
             </div>
-            <div class="col text-end pb-1 pt-1">
-                <span class="fw-bold text-danger h5"><span class="ti ti-arrow-down"></span>3.2%</span>
+            <div class="row flex-nowrap">
+                <div class="col pb-1 pt-1">
+                    <span class="fw-bold mr-2 mb-0 text-dark">$122.23</span>
+                </div>
+                <div class="col text-end pb-1 pt-1">
+                    <span class="fw-bold text-danger h5"><span class="ti ti-arrow-down"></span>3.2%</span>
+                </div>
             </div>
         </div>
     </div>
 </div>
-</div>
-<div class="card-body py-2">
-    <div>
-        <span class="badge bg-secondary-light badge-dismissible">Status: Open <button type="button" class="btn-close"></button></span>
-        <span class="badge bg-secondary-light badge-dismissible">Payment Status: Pending <button type="button" class="btn-close"></button></span>
-        <span class="badge bg-secondary-light badge-dismissible">Fulfillment Status: Unfulfilled, On Hold <button type="button" class="btn-close"></button></span>
+    <div class="card-body py-2">
+        <div>
+            <span class="badge bg-secondary-light badge-dismissible">Status: Open <button type="button" class="btn-close"></button></span>
+            <span class="badge bg-secondary-light badge-dismissible">Payment Status: Pending <button type="button" class="btn-close"></button></span>
+            <span class="badge bg-secondary-light badge-dismissible">Fulfillment Status: Unfulfilled, On Hold <button type="button" class="btn-close"></button></span>
+        </div>
     </div>
-</div>
-<div class="table-responsive">
+    <div class="table-responsive">
       <table class="table card-table table-sm ">
         <thead>
           <tr>
@@ -199,7 +199,49 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
       </table>
     </div>
 <div class="card-footer">
-<a href="#" class="btn btn-primary">Action</a>
+
+
+<div class="row align-items-center">
+    <div class="col">
+        <h4 class="m-0">Results 39</h4>
+    </div>
+    <div class="col">
+        <ul class="pagination justify-content-end mb-0">
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    <span class="ti ti-chevrons-left"></span>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    <span class="ti ti-chevron-left"></span>
+                </a>
+            </li>
+            <li class="page-item active">
+                <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    <span class="ti ti-chevron-right"></span>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    <span class="ti ti-chevrons-right"></span>
+                </a>
+            </li>
+      </ul>
+    </div>
+</div>
+
+
+
 </div>
 </div>
 </div>

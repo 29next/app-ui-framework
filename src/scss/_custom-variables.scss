@@ -234,17 +234,26 @@ $btn-link-disabled-color:     $gray-600;
 // Forms
 
 // scss-docs-start form-field-variables
+$input-padding-y:                       0.5rem;
+$input-padding-x:                       0.75rem;
+$input-font-family:                     $font-family-sans-serif;
 $input-font-size:                       $input-btn-font-size;
 $input-font-size-sm:                    $input-btn-font-size-sm;
 $input-font-size-lg:                    $input-btn-font-size-lg;
-$input-focus-bg:                        $input-bg ;
-$input-focus-border-color:              tint-color($component-active-bg, 50%) ;
+$input-border-color:                    $gray-400;
+$input-focus-bg:                        $input-bg;
+$input-focus-border-color:              $primary;
 $input-focus-color:                     $input-color ;
 $input-focus-width:                     $input-btn-focus-width ;
 $input-focus-box-shadow:                transparent ;
 
 $input-placeholder-color:               $gray-500;
 $input-plaintext-color:                 $body-color;
+
+$form-select-font-family:               $input-font-family;
+$form-select-padding-y:                 $input-padding-y;
+$form-select-padding-x:                 $input-padding-x;
+$form-select-border-color:              $input-border-color;
 // scss-docs-end form-field-variables
 
 
