@@ -44,13 +44,74 @@ description: 29next supports all of Bootstrap's default form styling. Please rea
       </div>
       <div class="mb-3">
         <label class="form-label" for="exampleSelect">
-          Select
+          Standard Select
         </label>
         <select id="exampleSelect" class="form-select mb-3" aria-label="Default select example">
-          <option selected>Open this select menu</option>
+          <option selected>Choose Your Choice</option>
           <option value="1">One</option>
           <option value="2">Two</option>
           <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="exampleSelect">
+          Choices Select
+        </label>
+        <select id="exampleSelect" class="form-select mb-3" data-choices aria-label="Default select example">
+          <option selected>Choose Your Choice</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="exampleSelect">
+          Choices Multi-Select
+        </label>
+        <select id="multiSelect" class="form-select mb-3" data-choices='{"removeItemButton":true}' multiple aria-label="Default select example">
+            <option value="London" selected>London</option>
+            <option value="Manchester">Manchester</option>
+            <option value="Liverpool">Liverpool</option>
+            <option value="New York">New York</option>
+            <option value="Washington" disabled="">Washington</option>
+            <option value="Michigan">Michigan</option>
+        </select>
+      </div>
+       <div class="mb-3">
+        <label class="form-label" for="exampleSelect">
+          Multi-Select with Grouped Choices
+        </label>
+        <select id="optionGroups" class="form-select mb-3" data-choices='{"removeItemButton":true}' multiple aria-label="Default select example">
+          <optgroup label="United Kingdom">
+            <option value="London">London</option>
+            <option value="Manchester">Manchester</option>
+            <option value="Liverpool">Liverpool</option>
+          </optgroup>
+          <optgroup label="France">
+            <option value="Paris" selected>Paris</option>
+            <option value="Lyon">Lyon</option>
+            <option value="Marseille">Marseille</option>
+          </optgroup>
+          <optgroup label="Germany" disabled="">
+            <option value="Hamburg">Hamburg</option>
+            <option value="Munich">Munich</option>
+            <option value="Berlin">Berlin</option>
+          </optgroup>
+          <optgroup label="United States of America">
+            <option value="New York">New York</option>
+            <option value="Washington" disabled="">Washington</option>
+            <option value="Michigan">Michigan</option>
+          </optgroup>
+          <optgroup label="Spain">
+            <option value="Madrid">Madrid</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Malaga">Malaga</option>
+          </optgroup>
+          <optgroup label="Canada">
+            <option value="Montreal">Montreal</option>
+            <option value="Toronto">Toronto</option>
+            <option value="Vancouver">Vancouver</option>
+          </optgroup>
         </select>
       </div>
       <div class="mb-3">
