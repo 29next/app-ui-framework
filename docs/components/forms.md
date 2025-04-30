@@ -48,9 +48,9 @@ description: 29next supports all of Bootstrap's default form styling. Please rea
         </label>
         <select id="exampleSelect" class="form-select mb-3" aria-label="Default select example">
           <option selected>Choose Your Choice</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
+          <option value="1">Option One</option>
+          <option value="2">Option Two</option>
+          <option value="3">Option Three</option>
         </select>
       </div>
       <div class="mb-3">
@@ -63,6 +63,7 @@ description: 29next supports all of Bootstrap's default form styling. Please rea
           <option value="2">Two</option>
           <option value="3">Three</option>
         </select>
+        <div id="emailHelp" class="form-text text-muted">Example help text to say something useful.</div>
       </div>
       <div class="mb-3">
         <label class="form-label" for="exampleSelect">
@@ -76,6 +77,7 @@ description: 29next supports all of Bootstrap's default form styling. Please rea
             <option value="Washington" disabled="">Washington</option>
             <option value="Michigan">Michigan</option>
         </select>
+        <div id="emailHelp" class="form-text text-muted">Example help text to say something useful.</div>
       </div>
        <div class="mb-3">
         <label class="form-label" for="exampleSelect">
@@ -113,6 +115,7 @@ description: 29next supports all of Bootstrap's default form styling. Please rea
             <option value="Vancouver">Vancouver</option>
           </optgroup>
         </select>
+        <div id="emailHelp" class="form-text text-muted">Example help text to say something useful.</div>
       </div>
       <div class="mb-3">
         <label for="formFile" class="form-label">Default file input example</label>
