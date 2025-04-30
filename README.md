@@ -26,7 +26,7 @@ Source files for the UI are written in [Sass](https://sass-lang.com/) and can be
 
 
 ### Bundled Libraries
-- **Grid System & Base Components** - [Bootrap 5](https://getbootstrap.com/)
+- **Grid System & Base Components** - [Bootstrap 5](https://getbootstrap.com/)
 - **Charts** - [ChartJS](https://www.chartjs.org/)
 - **Dropdowns** - [Choices](https://choices-js.github.io/Choices/)
 - **Date Picker** - [Flatpicker](https://flatpickr.js.org/examples/)
