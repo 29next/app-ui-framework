@@ -7,20 +7,27 @@ description: Use Bootstrap’s custom button styles for actions in forms, dialog
 
 ---
 
-<div class=" mb-5">
-<div class="card">
+<div class="card mb-5">
+    <div class="card-header">
+        <div>
+        <h4 class="card-header-title">Button Sizes</h4>
+        </div>
+    </div>
 <div class="card-body">
 <button type="button" class="btn btn-primary btn-lg">Large button</button>
-<button type="button" class="btn btn-primary">Base button</button>
+<button type="button" class="btn btn-primary">Standard button</button>
 <button type="button" class="btn btn-primary btn-sm">Small button</button>
 </div>
-
-<div class="card-footer" markdown="1">
+<div class="card-footer">
+<a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#butonSizes" role="button" aria-expanded="false" aria-controls="butonSizes">
+    See Markup Examples
+</a>
+<div class="collapse" markdown="1"  id="butonSizes">
 
 ```html
 
 <button type="button" class="btn btn-primary btn-lg">Large button</button>
-<button type="button" class="btn btn-primary">Base button</button>
+<button type="button" class="btn btn-primary">Standard button</button>
 <button type="button" class="btn btn-primary btn-sm">Small button</button>
 ```
 
@@ -28,8 +35,12 @@ description: Use Bootstrap’s custom button styles for actions in forms, dialog
 </div>
 </div>
 
-<div class=" mb-5">
-<div class="card">
+<div class="card mb-5">
+    <div class="card-header">
+        <div>
+        <h4 class="card-header-title">Button Colors</h4>
+        </div>
+    </div>
 <div class="card-body">
 <button type="button" class="btn btn-primary">Primary</button>
 <button type="button" class="btn btn-white">White</button>
@@ -42,8 +53,11 @@ description: Use Bootstrap’s custom button styles for actions in forms, dialog
 <button type="button" class="btn btn-dark">Dark</button>
 <button type="button" class="btn btn-link">Link</button>
 </div>
-
-<div class="card-footer" markdown="1">
+<div class="card-footer">
+<a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#buttonColors" role="button" aria-expanded="false" aria-controls="buttonColors">
+    See Markup Examples
+</a>
+<div class="collapse" markdown="1"  id="buttonColors">
 
 ```html
 
@@ -63,8 +77,12 @@ description: Use Bootstrap’s custom button styles for actions in forms, dialog
 </div>
 </div>
 
-<div class=" mb-5">
-<div class="card">
+<div class="card mb-5">
+    <div class="card-header">
+        <div>
+        <h4 class="card-header-title">Button Outline Colors</h4>
+        </div>
+    </div>
 <div class="card-body">
 <button type="button" class="btn btn-outline-primary">Primary</button>
 <button type="button" class="btn btn-outline-secondary">Secondary</button>
@@ -75,8 +93,11 @@ description: Use Bootstrap’s custom button styles for actions in forms, dialog
 <button type="button" class="btn btn-outline-light">Light</button>
 <button type="button" class="btn btn-outline-dark">Dark</button>
 </div>
-
-<div class="card-footer" markdown="1">
+<div class="card-footer">
+<a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#buttonOutlineColors" role="button" aria-expanded="false" aria-controls="buttonOutlineColors">
+    See Markup Examples
+</a>
+<div class="collapse" markdown="1"  id="buttonOutlineColors">
 
 ```html
 
