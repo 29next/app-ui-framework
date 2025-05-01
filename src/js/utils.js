@@ -97,7 +97,6 @@ function toggleLegend(legend) {
 
 document.addEventListener('DOMContentLoaded', function () {
     chartLegends.forEach(function (legend) {
-        console.log(legend);
         toggleLegend(legend);
     });
 });

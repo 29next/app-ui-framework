@@ -53,6 +53,15 @@ function fonts() {
         .pipe(gulp.dest(paths.output + '/fonts/'));
 }
 
+function watchSass() {
+    gulp.watch('./src/scss/*.scss', styles);
+}
+
+function watchJS() {
+    gulp.watch(paths.js, scripts);
+}
 
 gulp.task('default', gulp.parallel(styles, scripts, fonts));
+gulp.task('styles', styles);
 gulp.task('scripts', scripts);
+gulp.task('watch', gulp.parallel(watchJS, watchSass));

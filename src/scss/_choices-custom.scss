@@ -6,7 +6,7 @@ $choices-font-size-md: $font-size-base !default;
 $choices-font-size-sm: $font-size-sm !default;
 $choices-border-radius: var(--bs-border-radius) !default;
 $choices-border-radius-item: 4px !default;
-$choices-bg-color: #fff !default;
+$choices-bg-color: var(--bs-white) !default;
 $choices-bg-color-disabled: #eaeaea !default;
 $choices-bg-color-dropdown: #fff !default;
 $choices-keyline-color: #ddd !default;
@@ -85,7 +85,8 @@ $enable-shadows: false !default;
     border: 1px solid var(--bs-primary);
     border-radius: 4px;
     padding: 5px;
-    background-color: #fff;
+    margin-bottom: 5px;
+    background-color: var(--bs-white);
     // margin: 5px 10px;
   }
   .#{$choices-selector}__button {
@@ -297,7 +298,7 @@ $enable-shadows: false !default;
   }
   .#{$choices-selector}__item {
     position: relative;
-    padding: 5px 5px;
+    padding: 5px 0;
     font-size: $choices-font-size-md;
 
     [dir="rtl"] & {
@@ -365,10 +366,9 @@ $enable-shadows: false !default;
 }
 
 .#{$choices-selector}__heading {
-  font-weight: 500;
+  font-weight: 600;
   font-size: $choices-font-size-md;
-  padding: 10px 0;
-  border-bottom: 1px solid color.adjust($choices-keyline-color, $lightness: 10%);
+  padding: 5px 0;
   color: $choices-color;
 }
 

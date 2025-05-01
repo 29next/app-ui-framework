@@ -249,11 +249,13 @@ $input-focus-box-shadow:                transparent ;
 
 $input-placeholder-color:               $gray-500;
 $input-plaintext-color:                 $body-color;
-
+$form-text-color:                       $text-muted;
 $form-select-font-family:               $input-font-family;
 $form-select-padding-y:                 $input-padding-y;
 $form-select-padding-x:                 $input-padding-x;
 $form-select-border-color:              $input-border-color;
+$form-feedback-icon-valid:              none; // remove feedback icons
+$form-feedback-icon-invalid:            none; // remove feedback icons
 // scss-docs-end form-field-variables
 
 

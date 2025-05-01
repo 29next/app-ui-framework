@@ -15,7 +15,15 @@ document.addEventListener('DOMContentLoaded', function () {
                 console.error('Invalid JSON in data-datepicker:', customOptions);
             }
         }
-
         flatpickr(input, options);
     });
+});
+
+
+// choices
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('select[data-choices]').forEach((select) => {
+    const options = select.getAttribute('data-choices');
+    new Choices(select, options ? JSON.parse(options) : {});
+  });
 });
