@@ -7,8 +7,12 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
 
 ---
 
-<div class=" mb-5">
-  <div class="card">
+  <div class="card mb-5">
+    <div class="card-header">
+        <div>
+        <h4 class="card-header-title">Tables</h4>
+        </div>
+    </div>
     <div class="card-body">
       <div class="table-responsive">
         <table class="table table-sm">
@@ -43,13 +47,11 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
         </table>
       </div>
     </div>
-  </div>
-</div>
-
-
-<div class="card">
-
-<div class="card-body" markdown="1">
+<div class="card-footer">
+    <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#dismissableBadges" role="button" aria-expanded="false" aria-controls="dismissableBadges">
+    See Markup Example
+    </a>
+    <div id="dismissableBadges" class="collapse" markdown="1">
 
 ```html
   <div class="table-responsive">

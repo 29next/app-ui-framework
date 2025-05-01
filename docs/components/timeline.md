@@ -83,11 +83,11 @@ description: Timelines are a great way to show historical events to and provide 
             </div>
          </div>
     </div>
-</div>
-
-<div class="card">
-
-<div class="card-body" markdown="1">
+    <div class="card-footer">
+    <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#timelineExample" role="button" aria-expanded="false" aria-controls="timelineExample">
+    See Markup Example
+    </a>
+    <div id="timelineExample" class="collapse" markdown="1">
 
 ```html
 <div class="timeline">
@@ -159,5 +159,6 @@ description: Timelines are a great way to show historical events to and provide 
 </div>
 ```
 
+</div>
 </div>
 </div>

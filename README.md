@@ -25,6 +25,14 @@ Compile with your asset pipeline by downloading the source files.
 Source files for the UI are written in [Sass](https://sass-lang.com/) and can be found in the `src/scss` directory. You can copy and include the Sass files in your own or compile using the `src/scss/main.scss` file with any Sass compiler.
 
 
+### Bundled Libraries
+- **Grid System & Base Components** - [Bootstrap 5](https://getbootstrap.com/)
+- **Charts** - [ChartJS](https://www.chartjs.org/)
+- **Dropdowns** - [Choices](https://choices-js.github.io/Choices/)
+- **Date Picker** - [Flatpicker](https://flatpickr.js.org/examples/)
+- **Icons** - [Tabler Icons](https://tabler.io/icons)
+
+
 ### Contributing
 
 #### Run on Local
