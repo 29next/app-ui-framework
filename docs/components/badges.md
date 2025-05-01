@@ -26,7 +26,7 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
     </div>
 <div class="card-footer">
 <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#standardBadges" role="button" aria-expanded="false" aria-controls="standardBadges">
-    See Markup Examples
+    See Markup Example
 </a>
 <div class="collapse" markdown="1"  id="standardBadges">
 
@@ -60,7 +60,7 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
     </div>
     <div class="card-footer">
     <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#lightBadges" role="button" aria-expanded="false" aria-controls="lightBadges">
-    See Markup Examples
+    See Markup Example
     </a>
 <div class="collapse" markdown="1" id="lightBadges">
 
@@ -94,7 +94,7 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
 
 <div class="card-footer">
     <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#dismissableBadges" role="button" aria-expanded="false" aria-controls="dismissableBadges">
-    See Markup Examples
+    See Markup Example
     </a>
     <div id="dismissableBadges" class="collapse" markdown="1">
 

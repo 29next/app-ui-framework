@@ -6,9 +6,8 @@ title: "Charts"
 description: Chart.js is an excellent, fully customizable charting library bundled with a custom theme and styling. See examples below and <a href="https://www.chartjs.org/" target="_blank">Chart.js</a> documenation for deep reference on chart integration.
 
 ---
-<div class="mb-5">
-    <div class="card">
-        <div class="card-header">
+<div class="card mb-5">
+    <div class="card-header">
         <div>
             <h4 class="card-header-title">
             Line Chart
@@ -23,9 +22,11 @@ description: Chart.js is an excellent, fully customizable charting library bundl
                 <div class="chart-legend" id="lineComparisonLegend"></div>
             </div>
         </div>
-        <div class="card-body">
-            <h4>Code Example</h4>
-<div markdown="1">
+<div class="card-footer">
+    <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#lineChartExample" role="button" aria-expanded="false" aria-controls="lineChartExample">
+    See Markup Example
+    </a>
+    <div id="lineChartExample" class="collapse" markdown="1">
 
 ```html
 <div class="chart">
@@ -58,15 +59,11 @@ if (typeof Chart !== 'undefined' && lineComparison) {
 </script>
 ```
 </div>
-        </div>
-    </div>
+</div>
 </div>
 
-
-
-<div class="mb-5">
-    <div class="card">
-        <div class="card-header">
+<div class="card mb-5">
+    <div class="card-header">
         <div>
             <h4 class="card-header-title">
             Stacked Bar Chart
@@ -75,16 +72,18 @@ if (typeof Chart !== 'undefined' && lineComparison) {
         <div>
             </div>
         </div>
-        <div class="">
+        <div class="card-body">
             <div class="chart">
                 <canvas id="stackedBar" data-toggle="legend" data-target="#stackedBarLegend"></canvas>
                 <div class="chart-legend" id="stackedBarLegend"></div>
             </div>
         </div>
-        <div class="card-body">
-            <h4>Code Example</h4>
 
-<div markdown="1">
+<div class="card-footer">
+    <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#stackedBarChartExample" role="button" aria-expanded="false" aria-controls="stackedBarChartExample">
+    See Markup Example
+    </a>
+    <div id="stackedBarChartExample" class="collapse" markdown="1">
 
 ```html
 <div class="chart">
@@ -147,11 +146,9 @@ if (typeof Chart !== 'undefined' && stackedBar) {
 </script>
 ```
 </div>
-        </div>
-    </div>
+</div>
 </div>
 
-<div class=" mb-5">
 <div class="card">
 <div class="card-header">
   <div>
@@ -168,10 +165,11 @@ if (typeof Chart !== 'undefined' && stackedBar) {
         <div class="chart-legend" id="barLineComboLegend"></div>
     </div>
 </div>
-        <div class="card-body">
-            <h4>Code Example</h4>
-
-<div markdown="1">
+<div class="card-footer">
+    <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#comboChartExample" role="button" aria-expanded="false" aria-controls="comboChartExample">
+    See Markup Example
+    </a>
+    <div id="comboChartExample" class="collapse" markdown="1">
 
 ```html
 <div class="chart">
@@ -226,6 +224,5 @@ if (typeof Chart !== 'undefined' && barLineChart) {
 </script>
 ```
 </div>
-        </div>
 </div>
 </div>

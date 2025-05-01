@@ -20,7 +20,7 @@ description: Use Bootstrap’s custom button styles for actions in forms, dialog
 </div>
 <div class="card-footer">
 <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#butonSizes" role="button" aria-expanded="false" aria-controls="butonSizes">
-    See Markup Examples
+    See Markup Example
 </a>
 <div class="collapse" markdown="1"  id="butonSizes">
 
@@ -55,7 +55,7 @@ description: Use Bootstrap’s custom button styles for actions in forms, dialog
 </div>
 <div class="card-footer">
 <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#buttonColors" role="button" aria-expanded="false" aria-controls="buttonColors">
-    See Markup Examples
+    See Markup Example
 </a>
 <div class="collapse" markdown="1"  id="buttonColors">
 
@@ -95,7 +95,7 @@ description: Use Bootstrap’s custom button styles for actions in forms, dialog
 </div>
 <div class="card-footer">
 <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#buttonOutlineColors" role="button" aria-expanded="false" aria-controls="buttonOutlineColors">
-    See Markup Examples
+    See Markup Example
 </a>
 <div class="collapse" markdown="1"  id="buttonOutlineColors">
 

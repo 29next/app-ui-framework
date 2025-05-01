@@ -6,8 +6,7 @@ title: "Date Picker"
 description: flatpickr.js is an excellent full featured date picker library that comes bundled and styled to work natively. See <a target="_blank" href="https://flatpickr.js.org/examples/">flatpickr.js docs</a> for additional options to when initializing.
 ---
 
-<div class=" mb-5">
-  <div class="card">
+<div class="card mb-5">
   <div class="card-header">
     <div>
         <h4 class="card-header-title">Date Picker</h4>
@@ -74,13 +73,11 @@ description: flatpickr.js is an excellent full featured date picker library that
             <input class="form-control" data-datepicker='{"mode": "range"}' placeholder="Example Date Range Picker" />
         </div>
     </div>
-  </div>
-</div>
-
-
-<div class="card">
-
-<div class="card-body" markdown="1">
+    <div class="card-footer">
+    <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#dataPickerExamples" role="button" aria-expanded="false" aria-controls="dataPickerExamples">
+    See Markup Example
+    </a>
+    <div id="dataPickerExamples" class="collapse" markdown="1">
 
 ```html
 

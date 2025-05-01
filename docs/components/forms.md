@@ -79,7 +79,7 @@ description: 29 Next App UI Framework supports all of Bootstrap's default form s
     </div>
   <div class="card-footer">
     <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#formStandard" role="button" aria-expanded="false" aria-controls="formStandard">
-            See Markup Examples
+            See Markup Example
         </a>
 <div class="collapse" id="formStandard">
 <div class="" markdown="1">
@@ -235,7 +235,7 @@ description: 29 Next App UI Framework supports all of Bootstrap's default form s
     </div>
     <div class="card-footer">
     <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#formChoices" role="button" aria-expanded="false" aria-controls="formChoices">
-            See Markup Examples
+            See Markup Example
         </a>
 <div class="collapse" id="formChoices">
 <div class="" markdown="1">

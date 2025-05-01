@@ -50,7 +50,7 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
 </div>
     <div class="card-footer">
     <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#lightBadges" role="button" aria-expanded="false" aria-controls="lightBadges">
-    See Markup Examples
+    See Markup Example
     </a>
 <div class="collapse" markdown="1" id="lightBadges">
 
@@ -308,7 +308,7 @@ description: Bootstrap’s cards provide a flexible and extensible content conta
 </div>
 <div class="card-footer">
     <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#dismissableBadges" role="button" aria-expanded="false" aria-controls="dismissableBadges">
-    See Markup Examples
+    See Markup Example
     </a>
     <div id="dismissableBadges" class="collapse" markdown="1">
 

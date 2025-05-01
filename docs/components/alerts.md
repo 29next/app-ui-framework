@@ -50,7 +50,7 @@ description: Provide contextual feedback messages for typical user actions with 
         </div>
 <div class="card-footer">
     <a class="btn btn-white btn-sm" data-bs-toggle="collapse" href="#alertMarkup" role="button" aria-expanded="false" aria-controls="alertMarkup">
-            See Markup Examples
+            See Markup Example
         </a>
 <div class="collapse" markdown="1"  id="alertMarkup">
 
