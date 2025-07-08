@@ -8,7 +8,7 @@ description: "<a href='https://tabler.io/icons' target='_blank'>Tabler icons</a>
 <div class="card mb-5">
     <div class="card-header">
         <div>
-            <h4 class="card-header-title">Icons</h4>
+            <h4 class="card-header-title">Icon Usage</h4>
         </div>
     </div>
     <div class="card-body">
