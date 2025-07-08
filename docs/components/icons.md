@@ -105,18 +105,19 @@ aspect-ratio: 1 / 1;
 </div>
 <!-- Bootstrap Modal -->
 <div class="modal fade" id="iconModal" tabindex="-1" aria-labelledby="iconModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
-      <div class="modal-header border-0">
-        <h4 class="modal-title" id="iconModalLabel"></h4>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-header">
+        <h4 class="modal-title">Icon</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body d-flex flex-column align-items-center">
-        <div id="iconModalPreview" class="mb-3" style="font-size:6rem;"></div>
+        <div id="iconModalPreview" class="" style="font-size:6rem;"></div>
+        <div id="iconModalLabel" class="badge bg-secondary-light mb-3"></div>
         <div id="iconModalMeta" class="mb-3"></div>
-        <div>
-          <button id="iconModalCopy" class="btn btn-white btn-sm"> Copy Icon</button>
-        </div>
+      </div>
+      <div class="modal-footer d-block">
+        <button id="iconModalCopy" class="btn btn-white btn-sm w-100">Copy Icon Code</button>
       </div>
     </div>
   </div>
@@ -184,6 +185,10 @@ aspect-ratio: 1 / 1;
 // Initial bind
 document.addEventListener('DOMContentLoaded', function () {
   bindIconClicks();
+});
+// Always remove modal-backdrop on modal close
+document.getElementById('iconModal').addEventListener('hidden.bs.modal', function () {
+  document.querySelectorAll('.modal-backdrop').forEach(el => el.remove());
 });
 // Re-bind after every List.js update (pagination, search, etc)
 iconList.on('updated', bindIconClicks);
