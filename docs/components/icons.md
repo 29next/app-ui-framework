@@ -75,6 +75,12 @@ aspect-ratio: 1 / 1;
   box-shadow: 0 0 0 2px var(--bs-blue);
   background: rgba(13,110,253,0.05);
 }
+@media (max-width: 576px) {
+  #iconsCard .icons-grid,
+  .icons-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 </style>
 <div class="card mb-5">
     <div class="card-header">
