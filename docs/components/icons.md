@@ -159,39 +159,44 @@ aspect-ratio: 1 / 1;
     const observer = new MutationObserver(updatePagination);
     observer.observe(paginationContainer, { childList: true, subtree: true });
   }
+  let iconModalInstance = null;
   function bindIconClicks() {
-  const iconModal = new bootstrap.Modal(document.getElementById('iconModal'));
-  const iconModalLabel = document.getElementById('iconModalLabel');
-  const iconModalPreview = document.getElementById('iconModalPreview');
-  const iconModalMeta = document.getElementById('iconModalMeta');
-  const iconModalCopy = document.getElementById('iconModalCopy');
-  document.querySelectorAll('.icon-click').forEach(el => {
-    // Remove previous listener to avoid stacking
-    el.onclick = null;
-    el.addEventListener('click', function () {
-      const iconName = this.getAttribute('data-icon');
-      iconModalLabel.textContent = iconName;
-      iconModalPreview.innerHTML = `<span class="ti ti-${iconName}" style="font-size:6rem;"></span>`;
-      iconModalMeta.innerHTML = `<code>&lt;i class="ti ti-${iconName}"&gt;&lt;/i&gt;</code>`;
-      iconModalCopy.onclick = function() {
-        navigator.clipboard.writeText(`<i class="ti ti-${iconName}"></i>`);
-        iconModalCopy.textContent = "Copied!";
-        setTimeout(() => iconModalCopy.textContent = "Copy Icon", 1200);
-      };
-      iconModal.show();
+    const iconModalLabel = document.getElementById('iconModalLabel');
+    const iconModalPreview = document.getElementById('iconModalPreview');
+    const iconModalMeta = document.getElementById('iconModalMeta');
+    const iconModalCopy = document.getElementById('iconModalCopy');
+    document.querySelectorAll('.icon-click').forEach(el => {
+      el.onclick = null;
+      el.addEventListener('click', function () {
+        const iconName = this.getAttribute('data-icon');
+        iconModalLabel.textContent = iconName;
+        iconModalPreview.innerHTML = `<span class="ti ti-${iconName}" style="font-size:6rem;"></span>`;
+        iconModalMeta.innerHTML = `<code>&lt;i class="ti ti-${iconName}"&gt;&lt;/i&gt;</code>`;
+        iconModalCopy.onclick = function() {
+          navigator.clipboard.writeText(`<i class="ti ti-${iconName}"></i>`);
+          iconModalCopy.textContent = "Copied!";
+          setTimeout(() => iconModalCopy.textContent = "Copy Icon", 1200);
+        };
+        // Only create the modal instance once
+        if (!iconModalInstance) {
+          iconModalInstance = new bootstrap.Modal(document.getElementById('iconModal'));
+        }
+        iconModalInstance.show();
+      });
     });
+  }
+  // Initial bind
+  document.addEventListener('DOMContentLoaded', function () {
+    bindIconClicks();
   });
-}
-// Initial bind
-document.addEventListener('DOMContentLoaded', function () {
-  bindIconClicks();
-});
-// Always remove modal-backdrop on modal close
-document.getElementById('iconModal').addEventListener('hidden.bs.modal', function () {
-  document.querySelectorAll('.modal-backdrop').forEach(el => el.remove());
-});
-// Re-bind after every List.js update (pagination, search, etc)
-iconList.on('updated', bindIconClicks);
+
+  // Always remove modal-backdrop on modal close
+  document.getElementById('iconModal').addEventListener('hidden.bs.modal', function () {
+    document.querySelectorAll('.modal-backdrop').forEach(el => el.remove());
+  });
+
+  // Re-bind after every List.js update (pagination, search, etc)
+  iconList.on('updated', bindIconClicks);
 </script>
 
 
