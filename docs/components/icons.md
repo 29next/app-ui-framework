@@ -40,12 +40,12 @@ description: "<a href='https://tabler.io/icons' target='_blank'>Tabler icons</a>
 </div>
 <style>
 #iconsCard .icons-grid {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  gap: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0.5rem;
 }
 #iconsCard .ti {
-    font-size: 2.75rem;
+    font-size: 2rem;
     color: var(--bs-gray-dark)
 }
 #iconsCard .item .name {
@@ -62,11 +62,6 @@ aspect-ratio: 1 / 1;
   align-items: center;
   justify-content: center;
 }
-.icons-grid {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  gap: 0.5rem;
-}  
 .icon-click {
   cursor: pointer;
   transition: box-shadow 0.2s;
@@ -74,6 +69,18 @@ aspect-ratio: 1 / 1;
 .icon-click:hover .icon-square {
   box-shadow: 0 0 0 2px var(--bs-blue);
   background: rgba(13,110,253,0.05);
+}
+@media (max-width: 960px) {
+  #iconsCard .icons-grid,
+  .icons-grid {
+    grid-template-columns: repeat(9, 1fr);
+  }
+}
+@media (max-width: 750px) {
+  #iconsCard .icons-grid,
+  .icons-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
 @media (max-width: 576px) {
   #iconsCard .icons-grid,
@@ -138,7 +145,7 @@ aspect-ratio: 1 / 1;
         'name',
         { name: 'tags', attr: 'data-tags' }
     ],
-    page: 99,
+    page: 144,
     pagination: true
   };
   const iconList = new List(cardContainer, options);
