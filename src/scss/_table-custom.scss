@@ -26,3 +26,39 @@
     }
   }
 }
+
+
+.table a.sort {
+    color: $table-th-color !important;
+    &::after {
+        font-family: "tabler-icons" !important;
+        font-size: 14px;
+        line-height: normal;
+        display: inline-block;
+        margin-left: 3px;
+        content: '\eb1d';
+        vertical-align: middle;
+    }
+
+    &.asc
+    {
+        &::after {
+            content: '\ea62';
+            color: $primary !important;
+        }
+        a {
+            color: $primary !important;
+        }
+    }
+
+    &.desc {
+        &::after {
+            content: '\ea5f';
+            color: $primary;
+        }
+
+        a {
+            color: $primary;
+        }
+    }
+}

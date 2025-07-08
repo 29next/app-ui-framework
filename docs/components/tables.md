@@ -6,7 +6,6 @@ title: "Tables"
 description: Please read the official <a href="https://getbootstrap.com/docs/5.2/components/breadcrumb/" target="_blank">Bootstrap documentation</a> for a full list of options.
 
 ---
-
   <div class="card mb-5">
     <div class="card-header">
         <div>
@@ -18,10 +17,10 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
         <table class="table table-sm">
           <thead>
             <tr>
-              <th scope="col">#</th>
-              <th scope="col">First</th>
-              <th scope="col">Last</th>
-              <th scope="col">Handle</th>
+              <th scope="col"><a href="#" class="sort">Number</a></th>
+              <th scope="col"><a href="#" class="sort asc">First</a></th>
+              <th scope="col"><a href="#" class="sort desc">Last</a></th>
+              <th scope="col"><a href="#" class="sort">Handle</a></th>
             </tr>
           </thead>
           <tbody>
@@ -58,10 +57,10 @@ description: Please read the official <a href="https://getbootstrap.com/docs/5.2
     <table class="table table-sm">
       <thead>
         <tr>
-          <th scope="col">#</th>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
-          <th scope="col">Handle</th>
+          <th scope="col"><a href="#" class="sort">Number</a></th>
+          <th scope="col"><a href="#" class="sort asc">First</a></th>
+          <th scope="col"><a href="#" class="sort desc">Last</a></th>
+          <th scope="col"><a href="#" class="sort">Handle</a></th>
         </tr>
       </thead>
       <tbody>
